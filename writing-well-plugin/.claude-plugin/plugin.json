@@ -1,0 +1,21 @@
+{
+  "name": "writing-well",
+  "version": "1.0.0",
+  "description": "Apply William Zinsser's 'On Writing Well' principles to any prose Claude writes or revises. Auto-applies when drafting emails, articles, memos, letters, blog posts, reports, and other nonfiction prose.",
+  "author": {
+    "name": "Rob Lincolne"
+  },
+  "license": "MIT",
+  "skills": "./.claude/skills",
+  "keywords": [
+    "writing",
+    "prose",
+    "editing",
+    "zinsser",
+    "nonfiction",
+    "clutter",
+    "deslop",
+    "voice",
+    "style"
+  ]
+}

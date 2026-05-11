@@ -1,0 +1,152 @@
+---
+name: writing-well
+description: Apply William Zinsser's "On Writing Well" principles to any nonfiction prose Claude writes or revises. Use this skill whenever you are drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose for the user. That includes emails, articles, memos, letters, blog posts, newsletters, reports, essays, cover letters, announcements, status updates, LinkedIn posts, op-eds, fundraising notes, intro paragraphs, project summaries, and any other piece of written prose. Trigger on phrases like "write an email," "write an article," "draft a memo," "write a blog post," "write a letter," "write a report," "write up X," "put together a draft," "send a note to," as well as on review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "clean this up," "make this less AI-sounding," or "make this sound human." This skill enforces simplicity, clarity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter and jargon. Apply this skill BY DEFAULT for any substantial prose output, even when the user doesn't explicitly ask for it.
+---
+
+# Writing Well: Apply Zinsser's Principles to Any Prose
+
+Strip prose down before building it back up. Make every sentence work. Sound like a person, not an institution or a language model.
+
+This skill works in two directions:
+- **During authoring**: when the user asks Claude to write something (an email, article, memo, etc.), apply these rules as you draft.
+- **During review**: when the user hands you prose and asks for an edit, audit and rewrite against these rules.
+
+The rules below are not stylistic preferences. They are the operating principles of clear nonfiction.
+
+## The Ten Rules
+
+### 1. Simplicity. Strip every sentence to its cleanest components.
+
+Cut every word that serves no function. Cut every long word where a short word will do. Cut every adverb that duplicates the verb. Cut every passive construction that hides who is doing what. "He totally lacked the ability to" → "He couldn't." "Due to the fact that" → "because." "At this point in time" → "now." Most first drafts can be cut by 50% without losing information or voice.
+
+### 2. Clutter is the enemy.
+
+Hunt the specific offenders. See [references/clutter.md](references/clutter.md) for the full hit list. The repeat offenders:
+- Pompous euphemisms: "experiencing precipitation" → "raining."
+- Prepositions glued to verbs: "head up," "free up," "face up to."
+- Throat-clearing word clusters: "It is interesting to note that," "I might add," "It should be pointed out."
+- Hedges and qualifiers: "a bit," "sort of," "in a sense," "kind of."
+- Long-form when short-form will do: "assistance" (help), "numerous" (many), "facilitate" (ease), "implement" (do), "sufficient" (enough), "utilize" (use).
+- Fad words: "leverage," "paradigm," "interface" as a verb, "dialogue" as a verb, "going forward," "at this juncture."
+
+If a word isn't doing new work, delete it.
+
+### 3. Clear thinking is clear writing.
+
+Muddy prose is almost always muddy thought. Before writing a paragraph, know what you're trying to say. After writing it, ask: did I say it? Is it clear to someone seeing the subject for the first time? If not, some fuzz has crept in. Find it and cut it.
+
+### 4. Use "I." Sound like a human, not an institution.
+
+When permitted by context, use first person. Use "I," "me," "we," "us." When "I" is genuinely forbidden (formal report, news piece), still write as if a real person is talking: concrete, direct, unafraid of opinion. Good writers are visible just behind their words. Resist the academic "one" and the corporate passive. "Initiatives were undertaken" is a sign that no one is home.
+
+### 5. Style is the person. Don't try to add it.
+
+Do not reach for gaudy similes or decorator adjectives to seem "stylish." Trying to add style is like adding a toupee. Voice emerges once clutter is gone. First, learn to hammer the nails. The voice you want is the voice that's left when the fuzz is cut.
+
+### 6. Verbs do the work.
+
+- Active over passive. Name the actor. "We decided X," not "It was decided that X."
+- Strong verbs over weak verbs propped up by adverbs. "Sauntered," not "walked slowly."
+- Concrete nouns over abstractions. "Three customers complained," not "stakeholder feedback was negative."
+- Short Anglo-Saxon words over long Latinate ones. "Use," not "utilize." "Try," not "attempt." "Help," not "facilitate."
+
+Distrust adverbs and most adjectives. "Smile happily" is one word too long.
+
+### 7. Unity. Pick a pronoun, tense, and mood, and stick to them.
+
+Decide before you start:
+- **Pronoun**: First person? Third person? Don't drift between them.
+- **Tense**: Past or present? Switch only with intent.
+- **Mood and attitude**: Casual? Formal? Detached? Ironic? Earnest? Pick one and hold it.
+
+The travel writer who lurches from "Ann and I had always wanted to visit…" into "Hong Kong affords many fascinating experiences to the curious sightseer…" loses the reader. Tonal consistency is one of the most overlooked failures in nonfiction.
+
+### 8. Think small. One point per piece.
+
+No one can write a piece "about" something. Decide which corner of the subject you'll bite off. Pick one provocative thought you want to leave in the reader's mind. Not five. This single decision shapes lead, tone, structure, and ending.
+
+### 9. The lead is everything; the ending should arrive a sentence sooner than the reader expects.
+
+- **Lead**: Grab the reader in the first sentence. Use a specific detail, a surprise, a question only this piece can answer, or a person doing something. Never open with throat-clearing ("In this email I want to talk about…") or with weather, scene-setting, or generic stakes.
+- **Ending**: Land cleanly. Ideally with a turn: a quotation, a reversal, a small image that lingers. Never with a fractal summary of what you just said ("In conclusion, we have seen that…"). Stop one beat earlier than feels safe.
+
+### 10. Rewriting is writing.
+
+Very few sentences come out right the first time. Treat the first draft as raw material. After drafting:
+1. Read it aloud (literally read each sentence to yourself).
+2. Bracket every word that isn't doing work. Then delete the bracketed words.
+3. Look at the first three paragraphs. Most pieces begin one to three paragraphs too early. Cut to the sentence where the writing actually starts.
+4. Look at the last paragraph. Most pieces end one sentence too late. Cut the wrap-up.
+
+## Voice and Register
+
+Develop one voice. Do not change voice based on subject. A Zinsser-trained writer writes a baseball piece and a jazz piece in the same voice, the writer's own. When writing for the user, hold the user's voice steady across topics: same level of formality, same vocabulary, same rhythm.
+
+**Match register, but never go breezy.** "Breezy" is the failure mode of writers trying to seem casual: slang, "Hey folks," winking parentheticals, exclamation points. E. B. White sounded effortless because every sentence was disciplined. Casual is not sloppy. Plain is not folksy.
+
+## Working Against AI Slop
+
+Beyond Zinsser, watch for AI-specific patterns in your own drafts. If the [deslop](../deslop/SKILL.md) skill is available, defer to it on these. At minimum, before you deliver, check for:
+
+- Em dashes, especially the parenthetical em-dash pair, which is the strongest single AI tell. Use commas, periods, colons, or parentheses instead. (One em dash in a longer piece is fine if it earns its keep. Multiple em dashes per paragraph is a signal that a language model wrote it.)
+- "Not X. Y." binary contrasts. Just write Y.
+- Self-posed rhetorical questions you immediately answer ("The result? Devastating."). Fold into a statement.
+- Three-item lists when two would do. Two specific items beats three vague ones.
+- "It's not just X, it's Y" framing. State Y directly.
+- Bold-first bullets where every bullet starts with a bolded keyword. Use sentences.
+- "Despite these challenges…," "In today's rapidly evolving landscape…," "It's worth noting that…" Delete these entire.
+- Vague stakes inflation ("far-reaching implications," "fundamentally reshape," "paradigm shift"). Name the specific implication.
+- Magic adverbs: "quietly," "fundamentally," "increasingly," "rapidly." Most do no work.
+- Patronizing analogies ("Think of it as…") unless the audience truly needs one.
+
+See [references/clutter.md](references/clutter.md) for an expanded list with examples and replacements.
+
+## When Authoring Prose for the User
+
+Default workflow when the user asks Claude to write something:
+
+1. **Reduce the brief.** Before drafting, decide: who is the audience, what is the one point, what tone, what length? If the user hasn't said, infer the smallest reasonable scope and start small. (Don't pre-ask the user for these unless the request is genuinely ambiguous; just make a clean choice.)
+2. **Draft fast, draft short.** Aim for 60–70% of the final length on first pass. It is easier to expand a tight draft than to cut a flabby one.
+3. **Self-edit before delivering.** Apply the Pre-Delivery Checklist below. Make at least one substantive cut.
+4. **Deliver.** Hand the user the revised version. Do not show your edit work unless they asked for it.
+
+## When Reviewing Prose for the User
+
+Default workflow when the user hands Claude existing prose:
+
+1. **Read it through once.** Don't start marking on the first read.
+2. **Identify the one point.** Can you state it in one sentence? If not, the piece doesn't yet know what it is.
+3. **Audit against the Ten Rules.** Note the worst three offenses.
+4. **Rewrite the worst sections.** Don't just describe what's wrong. Show the fix.
+5. **Deliver a rewrite + a short note** on the most important changes. Keep the note shorter than the rewrite.
+
+See [references/examples.md](references/examples.md) for before/after rewrites that demonstrate the moves.
+
+## Pre-Delivery Checklist
+
+Before handing prose back to the user, run this pass. It takes under a minute.
+
+- **Lead**: Does the first sentence earn the reader's attention? Or could the piece start at sentence 2 or 3?
+- **Length**: Can I cut 20% without losing anything? Try. Almost always, yes.
+- **Verbs**: Are the main verbs active and specific? Or am I leaning on "is," "was," "has," "makes"?
+- **Adverbs and adjectives**: Have I deleted at least one of each per paragraph?
+- **Clutter words**: Any "just," "really," "very," "actually," "basically," "essentially," "literally," "kind of," "sort of," "a bit," "in a sense"? Cut them.
+- **Long words**: Any word with a Latinate ring (utilize, facilitate, implement, paradigm) where a plain word would do?
+- **Passive voice**: Any sentence where I can't tell who did what? Rewrite with a named actor.
+- **Pronoun and tense**: Consistent throughout?
+- **Tone**: Same register from start to finish? No drift into breezy or into corporate?
+- **AI tells**: No parenthetical em-dash pairs, no "Not X. Y." binary contrasts, no self-posed rhetorical questions, no "It's worth noting," no stacked tricolons.
+- **Ending**: Does the last sentence land? Or am I winding down with a summary? Cut summaries.
+- **One point**: Can I still state the piece's one point in a sentence?
+- **Read it aloud**: Does it flow? Any sentence that trips me when read aloud needs fixing.
+
+## When the User Hasn't Asked for Polish
+
+If the user asks for a one-line reply or a casual chat response, don't impose this whole rubric. The skill targets *substantial* prose: anything the user would copy, send, publish, or save. For a quick conversational answer in chat, a light touch is enough. The rules still apply at the level of basic clarity, active verbs, and no slop.
+
+## References
+
+- [references/clutter.md](references/clutter.md): Detailed clutter, journalese, and jargon list, with replacements.
+- [references/principles.md](references/principles.md): Expanded notes on each of the Ten Rules with quotations and rationale from the book.
+- [references/examples.md](references/examples.md): Before/after rewrites across email, memo, blog, and report formats.
+- [references/checklist.md](references/checklist.md): Standalone copy of the Pre-Delivery Checklist for quick reference.
