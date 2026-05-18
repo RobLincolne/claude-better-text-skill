@@ -89,10 +89,9 @@ Develop one voice. Do not change voice based on subject. A Zinsser-trained write
 Beyond Zinsser, watch for AI-specific patterns in your own drafts. If the [deslop](../deslop/SKILL.md) skill is available, defer to it on these. At minimum, before you deliver, check for:
 
 - Em dashes, especially the parenthetical em-dash pair, which is the strongest single AI tell. Use commas, periods, colons, or parentheses instead. (One em dash in a longer piece is fine if it earns its keep. Multiple em dashes per paragraph is a signal that a language model wrote it.)
-- "Not X. Y." binary contrasts. Just write Y.
+- Antithesis and contrast scaffolding. See the dedicated section below — this is the single most pervasive AI rhetorical tic.
 - Self-posed rhetorical questions you immediately answer ("The result? Devastating."). Fold into a statement.
 - Three-item lists when two would do. Two specific items beats three vague ones.
-- "It's not just X, it's Y" framing. State Y directly.
 - Bold-first bullets where every bullet starts with a bolded keyword. Use sentences.
 - "Despite these challenges…," "In today's rapidly evolving landscape…," "It's worth noting that…" Delete these entire.
 - Vague stakes inflation ("far-reaching implications," "fundamentally reshape," "paradigm shift"). Name the specific implication.
@@ -100,6 +99,30 @@ Beyond Zinsser, watch for AI-specific patterns in your own drafts. If the [deslo
 - Patronizing analogies ("Think of it as…") unless the audience truly needs one.
 
 See [references/clutter.md](references/clutter.md) for an expanded list with examples and replacements.
+
+### Antithesis and Contrast Scaffolding (Read This Twice)
+
+The rhetorical name is *antithesis* — specifically the "not X but Y" construction. LLMs lean on it because it feels punchy and structured. It pads length, delays the actual information, and is a top-tier AI tell. Cut it on sight.
+
+**Never write a sentence whose only job is to be wrong so the next sentence can correct it.** No throat-clearing dichotomies. Lead with the substantive point.
+
+Banned constructions:
+
+- "It's not X, it's Y." → Just write Y.
+- "It's not just X — it's Y." / "It's not only X, but also Y." → Just write Y.
+- "X isn't the problem. Y is." → Write "Y is the problem." or just describe Y.
+- "X is solved. Y is the bottleneck." → "Y is the bottleneck."
+- "X is done. Y is what matters." → State the point about Y directly.
+- "The question isn't X. It's Y." → Ask Y, or assert Y.
+- "X is easy. Y is hard." → Say why Y is hard.
+- "This isn't about X. It's about Y." → Lead with Y.
+- "Forget X. Y is the real story." → Tell the Y story.
+- "X may be true, but Y matters more." → State Y and its weight.
+- "X gets the headlines. Y does the work." → Describe what Y does.
+
+The diagnostic test: if you can delete the first sentence (the "wrong" one) and the paragraph still makes sense — and it almost always does — the first sentence was scaffolding, not content. Delete it.
+
+The pattern hides in subtler forms too. Watch for the same two-beat rhythm without the explicit negation: "Many people think X. The reality is Y." / "On paper, X. In practice, Y." / "Yes, X. But also Y." Same tic, same fix: state Y and move on.
 
 ## When Authoring Prose for the User
 

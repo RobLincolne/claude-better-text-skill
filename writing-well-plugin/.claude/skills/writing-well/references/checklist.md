@@ -47,13 +47,20 @@ A single-page checklist to run before handing prose back to the user. Should tak
 
 **AI tells**
 - [ ] No parenthetical em-dash pairs? (One em dash that earns its keep is OK. A run of em dashes is an AI tell.)
-- [ ] No "Not X. Y." binary contrasts?
 - [ ] No self-posed rhetorical questions answered immediately?
-- [ ] No "It's not just X, it's Y" construction?
 - [ ] No three-item lists where two would do?
 - [ ] No bold-first bullets (every bullet starting with a bolded keyword)?
 - [ ] No "In today's rapidly evolving landscape…," "Despite these challenges…," "It's worth noting that…"?
 - [ ] No magic adverbs: "quietly," "fundamentally," "increasingly," "rapidly"?
+
+**Antithesis / contrast scaffolding** (the most pervasive AI tic — check carefully)
+- [ ] No "It's not X, it's Y." / "It's not just X, it's Y."?
+- [ ] No "X isn't the problem. Y is." / "X is solved. Y is the bottleneck."?
+- [ ] No "X is done. Y is what matters." / "X is easy. Y is hard."?
+- [ ] No "The question isn't X. It's Y." / "This isn't about X. It's about Y."?
+- [ ] No "Forget X. Y is the real story."?
+- [ ] No subtler two-beat versions: "Many think X. The reality is Y." / "On paper, X. In practice, Y." / "Yes, X. But also Y."?
+- [ ] Diagnostic: can I delete the first ("wrong") sentence in any of these and lose nothing? If yes, delete it.
 
 **One point**
 - [ ] Can I still state the piece's one point in one sentence?
@@ -71,10 +78,11 @@ A single-page checklist to run before handing prose back to the user. Should tak
 
 ## The 30-Second Version
 
-If you're short on time, run only these five:
+If you're short on time, run only these six:
 
 1. **Cut the first paragraph.** Does the piece still work? Often yes.
 2. **Cut the last sentence.** Does it still close? Often yes.
 3. **Find every adverb. Delete half.**
 4. **Find every "really / very / just / kind of / sort of." Delete all.**
-5. **Read it aloud.** Fix whatever trips you.
+5. **Hunt every antithesis.** Any "It's not X, it's Y," "The question isn't X, it's Y," "X is done; Y is what matters" — delete the X sentence and keep only the Y point.
+6. **Read it aloud.** Fix whatever trips you.

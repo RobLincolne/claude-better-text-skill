@@ -294,6 +294,46 @@ The verb already contains the meaning. Cut the adverb.
 - **"presently"** — it means "soon," not "now." Most writers misuse it. Use "now."
 - **"hopefully"** at the start of a sentence ("Hopefully we'll arrive on time") — Zinsser disliked this; use "I hope we'll arrive on time."
 
+## Antithesis and Contrast Scaffolding (The Most Pervasive AI Tic)
+
+The rhetorical name is *antithesis*, specifically the "not X but Y" construction. LLMs reach for it constantly because it feels punchy and structured. It pads length, delays the actual information, and reads as machine-generated.
+
+**The rule:** Never write a sentence whose only job is to be wrong so the next sentence can correct it. No throat-clearing dichotomies. Lead with the substantive point.
+
+**Diagnostic:** If you can delete the first sentence (the "wrong" one) and the paragraph still makes sense, the first sentence was scaffolding, not content. Delete it.
+
+### Explicit-negation patterns
+
+| Cut | Use |
+|---|---|
+| It's not X, it's Y. | Just write Y. |
+| It's not just X — it's Y. | Just write Y. |
+| It's not only X, but also Y. | Just write Y. |
+| X isn't the problem. Y is. | Y is the problem. |
+| X is solved. Y is the bottleneck. | Y is the bottleneck. |
+| X is done. Y is what matters. | State the point about Y directly. |
+| The question isn't X. It's Y. | Ask Y. |
+| X is easy. Y is hard. | Say why Y is hard. |
+| This isn't about X. It's about Y. | Lead with Y. |
+| Forget X. Y is the real story. | Tell the Y story. |
+| X may be true, but Y matters more. | State Y and its weight. |
+| X gets the headlines. Y does the work. | Describe what Y does. |
+| Don't think of it as X. Think of it as Y. | Describe it as Y. |
+| Sure, X. But Y. | State Y. |
+
+### Subtler two-beat rhythms (same tic, no explicit negation)
+
+| Cut | Use |
+|---|---|
+| Many people think X. The reality is Y. | The reality is Y. (Or: just describe Y.) |
+| On paper, X. In practice, Y. | In practice, Y. |
+| Yes, X. But also Y. | Both X and Y. (Or skip X if it adds nothing.) |
+| X is the obvious answer. Y is the right one. | Y is the right answer. |
+| Everyone talks about X. Nobody talks about Y. | Y matters and is under-discussed. |
+| X looks like the win. Y is the actual win. | Y is the win. |
+
+When you catch yourself setting up a foil just to knock it down, stop. State the substantive point and move on.
+
 ## AI-Era Additions (Not in Zinsser, but in the spirit of the book)
 
 These are modern equivalents of the clutter Zinsser hated. Same surgery applies.
