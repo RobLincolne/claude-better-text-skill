@@ -1,61 +1,94 @@
-# Writing Well
+# claude-writing-well-skill
 
-A Claude skill that applies William Zinsser's *On Writing Well* principles to any prose Claude writes or revises.
+A Claude skill that applies William Zinsser's *On Writing Well* principles to any nonfiction prose Claude writes or revises.
 
-## What it does
+It's designed to auto-apply whenever Claude is asked to draft, edit, or review prose — emails, articles, memos, letters, blog posts, newsletters, reports, cover letters, announcements, status updates, and anything else substantial. Complements the standalone `deslop` skill.
 
-Whenever you ask Claude to write or edit prose — an email, an article, a memo, a letter, a blog post, a report, a cover letter, or anything else substantial — this skill enforces:
+## What's in this repo
 
-- **Simplicity.** Every sentence stripped to its cleanest components.
-- **Active verbs.** Named actors, concrete nouns, no passive evasions.
-- **Real human voice.** First person where allowed; visible personhood even where not.
-- **Unity.** One pronoun, one tense, one mood, one point — held to the end.
-- **Strong leads and endings.** No throat-clearing openers, no fractal summaries.
-- **Ruthless cuts of clutter.** No "leverage," "going forward," "It is worth noting that," no em-dash slop.
-- **Rewriting as a habit.** Self-edit before delivering.
+- `writing-well/` — the raw skill folder (`SKILL.md` + `references/`). Drop this into your skills directory to install manually.
+- `writing-well-plugin/` — the same skill wrapped as a Claude Code plugin (`.claude-plugin/plugin.json` + `.claude/skills/writing-well/`).
+- `writing-well.skill` — zip archive of the skill folder. Drag into Claude/Cowork's "Save skill" prompt to install with one click.
+- `writing-well.plugin` — zip archive of the plugin folder. Install via the plugin installer if you'd rather use the plugin form.
 
-It complements (and overlaps slightly with) the `deslop` skill. Use both for the cleanest output.
+## What the skill does
+
+It enforces, on every prose output Claude produces:
+
+1. **Simplicity** — strip every sentence to its cleanest components.
+2. **Clutter elimination** — hunt pompous euphemisms, prepositions glued to verbs, throat-clearing word clusters, hedges, fad words, and corporate jargon.
+3. **Clear thinking** — if a sentence is muddy, the thought is unfinished. Rewrite or cut.
+4. **Real human voice** — use "I" where allowed; resist the institutional passive even where it isn't.
+5. **Style is the person** — don't reach for "stylish" prose. Voice is what's left when clutter is gone.
+6. **Verbs do the work** — active over passive, concrete over abstract, short Anglo-Saxon over Latinate, no adverbs that duplicate the verb.
+7. **Unity** — one pronoun, one tense, one mood, one attitude. Hold them.
+8. **Think small** — one provocative point per piece, not five.
+9. **Lead and ending** — grab the reader in sentence one; land one beat earlier than feels safe.
+10. **Rewriting is writing** — cut, read aloud, cut again.
+
+Plus a pre-delivery checklist and a deslop-style AI-tells screen.
 
 ## Installation
 
-### As a Claude Code plugin
+### Option 1: As a `.skill` (recommended)
 
-From the `writing-well-1` directory:
+Drag `writing-well.skill` into Claude or Cowork. Click "Save skill". Done.
+
+### Option 2: As a plugin
 
 ```bash
-# If you have the Claude plugin CLI:
 claude plugin install ./writing-well-plugin
-
-# Or zip and install via Cowork:
-cd writing-well-plugin && zip -r ../writing-well.plugin . && cd ..
-# Then drag writing-well.plugin into Cowork's plugin installer.
 ```
 
-### As a standalone skill
+### Option 3: Manual
 
-Drop the `writing-well/` folder into your skills directory:
+Copy `writing-well/` into your skills directory (e.g. `~/.claude/skills/writing-well/`).
 
-```bash
-cp -r writing-well ~/.claude/skills/
-```
+## How it triggers
 
-## Usage
+The frontmatter is tuned to fire on any of these:
 
-Once installed, the skill triggers automatically when Claude is asked to write or edit prose. You don't need to mention it.
+**Authoring requests**
+- "write an email", "write an article", "draft a memo", "write a blog post", "write a letter", "write a report", "write up X", "put together a draft", "send a note to"
 
-You can also invoke it explicitly:
-- "Apply the writing-well skill to this paragraph."
-- "Rewrite this email using Zinsser's principles."
-- "Cut the clutter in this draft."
+**Review and edit requests**
+- "review this", "edit this", "polish this", "tighten this", "rewrite this", "clean this up"
+- "make this less AI-sounding", "make this sound human"
+
+**Targeted rhetorical-device cleanup** (added in v1.1)
+- "remove the rhetorical tics", "kill the antithesis", "cut the 'not X but Y' constructions", "remove the contrast scaffolding", "strip out the AI rhetorical patterns"
+
+**Explicit invocation**
+- Slash command: `/writing-well`
+- Or by name: "Apply the writing-well skill to this draft."
+
+It's also marked as a default-on skill for any substantial prose output, so it should kick in even when you don't name it.
+
+## Rhetorical-tic coverage
+
+In addition to the Zinsser ten, the skill catches the most pervasive LLM rhetorical tic: **antithesis** — the "not X but Y" construction and its variants. See the dedicated subsection of `SKILL.md` ("Antithesis and Contrast Scaffolding") and the patterns tables in `references/clutter.md`. Banned constructions include:
+
+- "It's not X, it's Y."
+- "X isn't the problem. Y is."
+- "The question isn't X. It's Y."
+- "X is easy. Y is hard."
+- "X is done. Y is what matters."
+- Subtler two-beat rhythms: "Many think X. The reality is Y." / "On paper, X. In practice, Y."
+
+The rule: never write a sentence whose only job is to be wrong so the next sentence can correct it. State the substantive point directly.
 
 ## Files
 
-- `SKILL.md` — Main skill file with the ten rules and pre-delivery checklist.
-- `references/clutter.md` — Detailed clutter, journalese, and jargon hit list with replacements.
-- `references/principles.md` — Expanded notes on each of the ten rules.
-- `references/examples.md` — Before/after rewrites across email, memo, blog, cover letter, and other formats.
-- `references/checklist.md` — Standalone pre-delivery checklist.
+- [`writing-well/SKILL.md`](writing-well/SKILL.md) — main skill file with the Ten Rules and Pre-Delivery Checklist.
+- [`writing-well/references/clutter.md`](writing-well/references/clutter.md) — detailed clutter, journalese, and jargon hit list with replacements.
+- [`writing-well/references/principles.md`](writing-well/references/principles.md) — expanded notes on each of the Ten Rules with passages from the book.
+- [`writing-well/references/examples.md`](writing-well/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
+- [`writing-well/references/checklist.md`](writing-well/references/checklist.md) — standalone copy of the pre-delivery checklist.
 
 ## Credits
 
-Distilled from William Zinsser, *On Writing Well: The Classic Guide to Writing Nonfiction*. The principles are Zinsser's; the application is mine.
+Distilled from William Zinsser, *On Writing Well: The Classic Guide to Writing Nonfiction* (25th anniversary edition, HarperCollins, 2001). The principles are Zinsser's; the codification into a Claude skill is mine.
+
+## License
+
+MIT

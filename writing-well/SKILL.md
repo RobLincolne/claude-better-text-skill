@@ -1,6 +1,6 @@
 ---
 name: writing-well
-description: Apply William Zinsser's On Writing Well principles to nonfiction prose Claude writes or revises. Use whenever drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose — emails, articles, memos, letters, blog posts, newsletters, reports, essays, cover letters, announcements, status updates, LinkedIn posts, op-eds, or any other written prose. Trigger on "write an email," "write an article," "draft a memo," "write a blog post," "write a letter," "write a report," "write up X," "put together a draft," plus review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "make this less AI-sounding," or "make this sound human." Enforces simplicity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter and jargon. Apply BY DEFAULT for any substantial prose output, even when not explicitly asked.
+description: Apply William Zinsser's On Writing Well principles to nonfiction prose Claude writes or revises, and strip out LLM rhetorical tics like antithesis, "not X but Y," "it's not X, it's Y," and other contrast scaffolding. Use whenever drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose — emails, articles, memos, letters, blog posts, reports, cover letters, LinkedIn posts, or any substantial prose. Trigger on "write an email," "draft a memo," "write a blog post," "write up X," plus review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "make this sound human," "make this less AI-sounding," "remove rhetorical tics," "kill the antithesis," "remove the 'not X but Y' pattern." Enforces simplicity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter, jargon, and AI rhetorical patterns. Apply BY DEFAULT for any substantial prose output, even when not explicitly asked.
 ---
 
 # Writing Well: Apply Zinsser's Principles to Any Prose
@@ -12,6 +12,42 @@ This skill works in two directions:
 - **During review**: when the user hands you prose and asks for an edit, audit and rewrite against these rules.
 
 The rules below are not stylistic preferences. They are the operating principles of clear nonfiction.
+
+## How to Invoke This Skill
+
+The skill is default-on for substantial prose and fires automatically on common writing requests. You usually don't need to name it. But if you want to trigger it deliberately, any of the following work:
+
+**Authoring prompts** (Claude drafts from scratch):
+- "Write an email to Sam about the delayed shipment."
+- "Draft a memo on the Q3 reorg."
+- "Write a blog post about our new pricing."
+- "Write up the meeting notes."
+- "Put together a draft of the cover letter."
+- "Send a note to the team about Friday's outage."
+
+**Review and edit prompts** (Claude polishes existing prose):
+- "Review this draft."
+- "Edit this email."
+- "Polish this paragraph."
+- "Tighten this memo."
+- "Rewrite this so it's less corporate."
+- "Make this sound human."
+- "Make this less AI-sounding."
+- "Clean up this draft."
+
+**Targeted AI-tic cleanup** (for the rhetorical-device coverage):
+- "Remove the rhetorical tics from this."
+- "Kill the antithesis in this draft."
+- "Cut the 'not X but Y' constructions."
+- "Remove the contrast scaffolding."
+- "Strip out the AI rhetorical patterns."
+- "Deslop this paragraph." (works alongside the deslop skill if installed)
+
+**Explicit invocation:**
+- Slash command: `/writing-well`
+- Name it: "Apply the writing-well skill to this draft."
+
+When in doubt, just describe what you want done to the prose. The skill's triggers are tuned broadly enough that any honest request to write, edit, polish, or de-AI a piece of writing will pull it in.
 
 ## The Ten Rules
 

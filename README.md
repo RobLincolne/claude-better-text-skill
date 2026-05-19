@@ -48,11 +48,34 @@ Copy `writing-well/` into your skills directory (e.g. `~/.claude/skills/writing-
 
 The frontmatter is tuned to fire on any of these:
 
+**Authoring requests**
 - "write an email", "write an article", "draft a memo", "write a blog post", "write a letter", "write a report", "write up X", "put together a draft", "send a note to"
+
+**Review and edit requests**
 - "review this", "edit this", "polish this", "tighten this", "rewrite this", "clean this up"
 - "make this less AI-sounding", "make this sound human"
 
+**Targeted rhetorical-device cleanup** (added in v1.1)
+- "remove the rhetorical tics", "kill the antithesis", "cut the 'not X but Y' constructions", "remove the contrast scaffolding", "strip out the AI rhetorical patterns"
+
+**Explicit invocation**
+- Slash command: `/writing-well`
+- Or by name: "Apply the writing-well skill to this draft."
+
 It's also marked as a default-on skill for any substantial prose output, so it should kick in even when you don't name it.
+
+## Rhetorical-tic coverage
+
+In addition to the Zinsser ten, the skill catches the most pervasive LLM rhetorical tic: **antithesis** — the "not X but Y" construction and its variants. See the dedicated subsection of `SKILL.md` ("Antithesis and Contrast Scaffolding") and the patterns tables in `references/clutter.md`. Banned constructions include:
+
+- "It's not X, it's Y."
+- "X isn't the problem. Y is."
+- "The question isn't X. It's Y."
+- "X is easy. Y is hard."
+- "X is done. Y is what matters."
+- Subtler two-beat rhythms: "Many think X. The reality is Y." / "On paper, X. In practice, Y."
+
+The rule: never write a sentence whose only job is to be wrong so the next sentence can correct it. State the substantive point directly.
 
 ## Files
 
