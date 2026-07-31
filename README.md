@@ -6,12 +6,23 @@ It's designed to auto-apply whenever Claude is asked to draft, edit, or review p
 
 It also tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them — an area I really want to push further.
 
+## Install
+
+Download **[`writing-well.skill`](writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+
+Prefer to install by hand? Unzip it into your skills directory:
+
+```bash
+unzip writing-well.skill -d ~/.claude/skills/
+```
+
+Either way you end up with `~/.claude/skills/writing-well/`.
+
 ## What's in this repo
 
-- `writing-well/` — the raw skill folder (`SKILL.md` + `references/`). Drop this into your skills directory to install manually.
-- `writing-well-plugin/` — the same skill wrapped as a Claude Code plugin (`.claude-plugin/plugin.json` + `.claude/skills/writing-well/`).
-- `writing-well.skill` — zip archive of the skill folder. Drag into Claude/Cowork's "Save skill" prompt to install with one click.
-- `writing-well.plugin` — zip archive of the plugin folder. Install via the plugin installer if you'd rather use the plugin form.
+- `writing-well/` — the skill itself (`SKILL.md` + `references/`). This is the source of truth; edit here.
+- `writing-well.skill` — the installable archive, built from that folder.
+- `build.sh` — rebuilds the archive. Run it after any edit to `writing-well/`.
 
 ## What the skill does
 
@@ -30,21 +41,15 @@ It enforces, on every prose output Claude produces:
 
 Plus a pre-delivery checklist and a deslop-style AI-tells screen.
 
-## Installation
+## Developing
 
-### Option 1: As a `.skill` (recommended)
-
-Drag `writing-well.skill` into Claude or Cowork. Click "Save skill". Done.
-
-### Option 2: As a plugin
+Edit files under `writing-well/`, then rebuild:
 
 ```bash
-claude plugin install ./writing-well-plugin
+./build.sh
 ```
 
-### Option 3: Manual
-
-Copy `writing-well/` into your skills directory (e.g. `~/.claude/skills/writing-well/`).
+The script checks that the frontmatter `name:` still matches the folder name, strips macOS cruft, and rewrites `writing-well.skill`. Commit both the source edit and the rebuilt archive together so they never drift.
 
 ## How it triggers
 
