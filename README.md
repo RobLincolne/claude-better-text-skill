@@ -1,10 +1,10 @@
 # claude-writing-well-skill
 
-A Claude skill that is inspired by William Zinsser's *On Writing Well* principles to any nonfiction prose Claude writes or revises.
+A Claude skill inspired by William Zinsser's *On Writing Well*, applying its principles to any nonfiction prose Claude writes or revises.
 
 It's designed to auto-apply whenever Claude is asked to draft, edit, or review prose — emails, articles, memos, letters, blog posts, newsletters, reports, cover letters, announcements, status updates, and anything else substantial. Complements the standalone `deslop` skill.
 
-It also works to tackle head-on classic claude-isms such as antethesis statements and other ticks as we spot them. An area I really want to push in more.
+It also tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them — an area I really want to push further.
 
 ## What's in this repo
 
