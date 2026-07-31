@@ -114,6 +114,22 @@ Very few sentences come out right the first time. Treat the first draft as raw m
 3. Look at the first three paragraphs. Most pieces begin one to three paragraphs too early. Cut to the sentence where the writing actually starts.
 4. Look at the last paragraph. Most pieces end one sentence too late. Cut the wrap-up.
 
+## House Style (User Additions)
+
+These three rules extend the Ten Rules above. When they conflict, house style wins. They apply with full force to specs, capability statements, product descriptions, and promotional copy; apply them with judgment in warmer formats (personal email, narrative) where full sentences read better.
+
+### A. Cut articles wherever grammar survives without them.
+
+Delete "the," "a," and "an" unless the sentence breaks or turns ambiguous. "The database enforces tenant isolation" → "Database enforces tenant isolation." "The investor directory is shared" → "Investor directory is shared." "Same graph powers LV origination," not "The same graph powers the LV origination work." Keep an article only where removing it changes meaning or produces a genuine stumble when read aloud.
+
+### B. No colons or semicolons in body prose. Write simple sentences instead.
+
+Split every colon or semicolon construction into short declarative sentences. "Scoring is deterministic: founders can see why each firm ranked as it did" → "Scoring is deterministic. Founders see why each firm ranked strong, possible or weak." A colon may survive only where a table or list literally follows and no rephrase works. Headings carry no explanatory tails — "Smart Match: find the right investors in seconds" becomes "Smart Match," and the body does the work.
+
+### C. Say what it does, not what it means.
+
+Lead each sentence with an actor and an action verb. Describe function, never significance. "The event log makes the round narrative reconstructible" → "Every change lands in an append-only event log. The story of the round replays at any time." Cut significance framing on sight: "this matters because," "the result is," "which enables," "this means that." If a sentence explains why a feature is important instead of what it does, rewrite it as the action — the reader infers the importance from the function.
+
 ## Voice and Register
 
 Develop one voice. Do not change voice based on subject. A Zinsser-trained writer writes a baseball piece and a jazz piece in the same voice, the writer's own. When writing for the user, hold the user's voice steady across topics: same level of formality, same vocabulary, same rhythm.
@@ -195,6 +211,9 @@ Before handing prose back to the user, run this pass. It takes under a minute.
 - **Pronoun and tense**: Consistent throughout?
 - **Tone**: Same register from start to finish? No drift into breezy or into corporate?
 - **AI tells**: No parenthetical em-dash pairs, no "Not X. Y." binary contrasts, no self-posed rhetorical questions, no "It's worth noting," no stacked tricolons.
+- **Articles**: Can any "the," "a," or "an" go without breaking the sentence? Cut it (House Style A).
+- **Colons and semicolons**: Any in body prose? Split into simple sentences (House Style B).
+- **Does vs. means**: Does each sentence state an action by a named actor? Rewrite significance-statements as function-statements (House Style C).
 - **Ending**: Does the last sentence land? Or am I winding down with a summary? Cut summaries.
 - **One point**: Can I still state the piece's one point in a sentence?
 - **Read it aloud**: Does it flow? Any sentence that trips me when read aloud needs fixing.
