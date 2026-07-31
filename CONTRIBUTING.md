@@ -48,6 +48,6 @@ The repo is a writing skill, so the prose in it should pass its own rules. Befor
 Maintainer step. Tag a version and CI builds and publishes the archive:
 
 ```bash
-git tag v1.2.0
-git push origin v1.2.0
+git tag v2.1.0
+git push origin v2.1.0
 ```

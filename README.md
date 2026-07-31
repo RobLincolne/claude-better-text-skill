@@ -1,4 +1,4 @@
-# claude-writing-well-skill
+# claude-better-language-skill
 
 A Claude skill inspired by my experience of William Zinsser's *On Writing Well*, applying its principles to any nonfiction prose Claude writes or revises. It also tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them — an area I really want to push further.
 
@@ -6,7 +6,7 @@ It's designed to auto-apply whenever Claude is asked to draft, edit, or review p
 
 ## Install
 
-Download **[better-language.skill](https://github.com/RobLincolne/claude-writing-well-skill/releases/latest/download/better-language.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+Download **[better-language.skill](https://github.com/RobLincolne/claude-better-language-skill/releases/latest/download/better-language.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
 
 Prefer to install by hand? Unzip it into your skills directory:
 
@@ -47,7 +47,7 @@ The checks catch the two failures that break the skill silently: a frontmatter `
 Releases are cut by tagging. CI builds the archive and attaches it to the release:
 
 ```bash
-git tag v1.2.0 && git push origin v1.2.0
+git tag v2.1.0 && git push origin v2.1.0
 ```
 
 ## How it triggers
@@ -98,7 +98,7 @@ Everything else is tooling:
 - [`build.sh`](build.sh) — validates the source and builds the `.skill` archive.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to propose a change, and the two constraints to respect.
 
-The `better-language.skill` archive is a build output. It isn't committed — CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-writing-well-skill/releases).
+The `better-language.skill` archive is a build output. It isn't committed — CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-better-language-skill/releases).
 
 ## Credits
 
