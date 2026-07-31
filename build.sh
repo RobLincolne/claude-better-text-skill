@@ -63,7 +63,9 @@ fi
 
 headroom=$((DESC_LIMIT - desc_len))
 echo "ok   description $desc_len/$DESC_LIMIT chars ($headroom to spare)"
-[ "$headroom" -lt 50 ] && echo "warn description is close to the limit — trim before adding triggers"
+if [ "$headroom" -lt 50 ]; then
+  echo "warn description is close to the limit — trim before adding triggers"
+fi
 
 if $check_only; then
   echo "checks passed"
