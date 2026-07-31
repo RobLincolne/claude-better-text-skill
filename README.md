@@ -8,7 +8,7 @@ It also tackles head-on classic Claude-isms such as antithesis statements, and o
 
 ## Install
 
-Download **[`writing-well.skill`](writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+Download **[writing-well.skill](https://github.com/RobLincolne/claude-writing-well-skill/raw/main/writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
 
 Prefer to install by hand? Unzip it into your skills directory:
 
@@ -17,12 +17,6 @@ unzip writing-well.skill -d ~/.claude/skills/
 ```
 
 Either way you end up with `~/.claude/skills/writing-well/`.
-
-## What's in this repo
-
-- `writing-well/` — the skill itself (`SKILL.md` + `references/`). This is the source of truth; edit here.
-- `writing-well.skill` — the installable archive, built from that folder.
-- `build.sh` — rebuilds the archive. Run it after any edit to `writing-well/`.
 
 ## What the skill does
 
@@ -86,11 +80,18 @@ The rule: never write a sentence whose only job is to be wrong so the next sente
 
 ## Files
 
+`writing-well/` is the source of truth — edit here, then run `./build.sh`.
+
 - [`writing-well/SKILL.md`](writing-well/SKILL.md) — main skill file with the Ten Rules and Pre-Delivery Checklist.
 - [`writing-well/references/clutter.md`](writing-well/references/clutter.md) — detailed clutter, journalese, and jargon hit list with replacements.
 - [`writing-well/references/principles.md`](writing-well/references/principles.md) — expanded notes on each of the Ten Rules with passages from the book.
 - [`writing-well/references/examples.md`](writing-well/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
 - [`writing-well/references/checklist.md`](writing-well/references/checklist.md) — standalone copy of the pre-delivery checklist.
+
+Everything else is generated or tooling:
+
+- `writing-well.skill` — the installable archive, built from `writing-well/`.
+- [`build.sh`](build.sh) — rebuilds that archive.
 
 ## Credits
 
