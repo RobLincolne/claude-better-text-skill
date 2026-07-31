@@ -8,7 +8,7 @@ It also tackles head-on classic Claude-isms such as antithesis statements, and o
 
 ## Install
 
-Download **[writing-well.skill](https://github.com/RobLincolne/claude-writing-well-skill/raw/main/writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+Download **[writing-well.skill](https://github.com/RobLincolne/claude-writing-well-skill/releases/latest/download/writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
 
 Prefer to install by hand? Unzip it into your skills directory:
 
@@ -37,13 +37,20 @@ Plus a pre-delivery checklist and a deslop-style AI-tells screen.
 
 ## Developing
 
-Edit files under `writing-well/`, then rebuild:
+Edit files under `writing-well/`. That folder is the only source — the `.skill` archive is built, never committed.
 
 ```bash
-./build.sh
+./build.sh --check   # validate (this is what CI runs on every PR)
+./build.sh           # validate, then build writing-well.skill
 ```
 
-The script checks that the frontmatter `name:` still matches the folder name, strips macOS cruft, and rewrites `writing-well.skill`. Commit both the source edit and the rebuilt archive together so they never drift.
+The checks catch the two failures that break the skill silently: a frontmatter `name:` that drifts from the folder name, and a `description:` over its 1024-character limit. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Releases are cut by tagging. CI builds the archive and attaches it to the release:
+
+```bash
+git tag v1.2.0 && git push origin v1.2.0
+```
 
 ## How it triggers
 
@@ -88,10 +95,12 @@ The rule: never write a sentence whose only job is to be wrong so the next sente
 - [`writing-well/references/examples.md`](writing-well/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
 - [`writing-well/references/checklist.md`](writing-well/references/checklist.md) — standalone copy of the pre-delivery checklist.
 
-Everything else is generated or tooling:
+Everything else is tooling:
 
-- `writing-well.skill` — the installable archive, built from `writing-well/`.
-- [`build.sh`](build.sh) — rebuilds that archive.
+- [`build.sh`](build.sh) — validates the source and builds the `.skill` archive.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to propose a change, and the two constraints to respect.
+
+The `writing-well.skill` archive is a build output. It isn't committed — CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-writing-well-skill/releases).
 
 ## Credits
 

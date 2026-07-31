@@ -9,3 +9,7 @@
 # Local cruft
 zin0PegO
 *.tmp
+
+# Build output — the .skill is attached to GitHub Releases, not committed.
+# See build.sh and .github/workflows/build.yml
+writing-well.skill

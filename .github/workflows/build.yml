@@ -1,0 +1,65 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  # Runs on every pull request. Catches the two mistakes that silently break
+  # the skill: a frontmatter name that drifts from the folder name, and a
+  # description over the character limit.
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Validate skill source
+        run: ./build.sh --check
+
+      - name: Build archive
+        run: ./build.sh
+
+      - name: Verify archive layout
+        run: |
+          # The archive must wrap everything in writing-well/ so it unzips
+          # straight into a skills directory. A flat archive would scatter
+          # SKILL.md loose among the user's other installed skills.
+          unzip -Z1 writing-well.skill | sed 's/^/  /'
+          if unzip -Z1 writing-well.skill | grep -qv '^writing-well/'; then
+            echo "FAIL: archive contains entries outside writing-well/" >&2
+            exit 1
+          fi
+          test -f writing-well/SKILL.md
+          echo "ok archive layout"
+
+      - name: Upload archive for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: writing-well-skill
+          path: writing-well.skill
+
+  # Runs only on a version tag. Builds the archive and attaches it to a
+  # GitHub Release, which is where the README download link points.
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Build archive
+        run: ./build.sh
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: writing-well.skill
+          generate_release_notes: true
