@@ -1,9 +1,9 @@
 ---
 name: better-language
-description: Apply William Zinsser's On Writing Well principles to nonfiction prose Claude writes or revises, and strip out LLM rhetorical tics like antithesis, "not X but Y," "it's not X, it's Y," and other contrast scaffolding. Use whenever drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose — emails, articles, memos, letters, blog posts, reports, cover letters, LinkedIn posts, or any substantial prose. Trigger on "write an email," "draft a memo," "write a blog post," "write up X," plus review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "make this sound human," "make this less AI-sounding," "remove rhetorical tics," "kill the antithesis," "remove the 'not X but Y' pattern." Enforces simplicity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter, jargon, and AI rhetorical patterns. Apply BY DEFAULT for any substantial prose output, even when not explicitly asked.
+description: Apply classic nonfiction writing principles to prose Claude writes or revises, and strip out LLM rhetorical tics like antithesis, "not X but Y," "it's not X, it's Y," and other contrast scaffolding. Use whenever drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose — emails, articles, memos, letters, blog posts, reports, cover letters, LinkedIn posts, or any substantial prose. Trigger on "write an email," "draft a memo," "write a blog post," "write up X," plus review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "make this sound human," "make this less AI-sounding," "remove rhetorical tics," "kill the antithesis," "remove the 'not X but Y' pattern." Enforces simplicity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter, jargon, and AI rhetorical patterns. Apply BY DEFAULT for any substantial prose output, even when not explicitly asked.
 ---
 
-# Writing Well: Apply Zinsser's Principles to Any Prose
+# Better Language: Clear, Human Prose
 
 Strip prose down before building it back up. Make every sentence work. Sound like a person, not an institution or a language model.
 

@@ -89,7 +89,7 @@ The rule: never write a sentence whose only job is to be wrong so the next sente
 
 - [`better-language/SKILL.md`](better-language/SKILL.md) — main skill file with the Ten Rules and Pre-Delivery Checklist.
 - [`better-language/references/clutter.md`](better-language/references/clutter.md) — detailed clutter, journalese, and jargon hit list with replacements.
-- [`better-language/references/principles.md`](better-language/references/principles.md) — expanded notes on each of the Ten Rules with passages from the book.
+- [`better-language/references/principles.md`](better-language/references/principles.md) — expanded notes on each of the Ten Rules, explaining the reasoning behind them.
 - [`better-language/references/examples.md`](better-language/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
 - [`better-language/references/checklist.md`](better-language/references/checklist.md) — standalone copy of the pre-delivery checklist.
 
