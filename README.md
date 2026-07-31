@@ -6,15 +6,15 @@ It's designed to auto-apply whenever Claude is asked to draft, edit, or review p
 
 ## Install
 
-Download **[writing-well.skill](https://github.com/RobLincolne/claude-writing-well-skill/releases/latest/download/writing-well.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+Download **[better-language.skill](https://github.com/RobLincolne/claude-writing-well-skill/releases/latest/download/better-language.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
 
 Prefer to install by hand? Unzip it into your skills directory:
 
 ```bash
-unzip writing-well.skill -d ~/.claude/skills/
+unzip better-language.skill -d ~/.claude/skills/
 ```
 
-Either way you end up with `~/.claude/skills/writing-well/`.
+Either way you end up with `~/.claude/skills/better-language/`.
 
 ## What the skill does
 
@@ -35,11 +35,11 @@ Plus a pre-delivery checklist and a deslop-style AI-tells screen.
 
 ## Developing
 
-Edit files under `writing-well/`. That folder is the only source — the `.skill` archive is built, never committed.
+Edit files under `better-language/`. That folder is the only source — the `.skill` archive is built, never committed.
 
 ```bash
 ./build.sh --check   # validate (this is what CI runs on every PR)
-./build.sh           # validate, then build writing-well.skill
+./build.sh           # validate, then build better-language.skill
 ```
 
 The checks catch the two failures that break the skill silently: a frontmatter `name:` that drifts from the folder name, and a `description:` over its 1024-character limit. See [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -65,8 +65,8 @@ The frontmatter is tuned to fire on any of these:
 - "remove the rhetorical tics", "kill the antithesis", "cut the 'not X but Y' constructions", "remove the contrast scaffolding", "strip out the AI rhetorical patterns"
 
 **Explicit invocation**
-- Slash command: `/writing-well`
-- Or by name: "Apply the writing-well skill to this draft."
+- Slash command: `/better-language`
+- Or by name: "Apply the better-language skill to this draft."
 
 It's also marked as a default-on skill for any substantial prose output, so it should kick in even when you don't name it.
 
@@ -85,20 +85,20 @@ The rule: never write a sentence whose only job is to be wrong so the next sente
 
 ## Files
 
-`writing-well/` is the source of truth — edit here, then run `./build.sh`.
+`better-language/` is the source of truth — edit here, then run `./build.sh`.
 
-- [`writing-well/SKILL.md`](writing-well/SKILL.md) — main skill file with the Ten Rules and Pre-Delivery Checklist.
-- [`writing-well/references/clutter.md`](writing-well/references/clutter.md) — detailed clutter, journalese, and jargon hit list with replacements.
-- [`writing-well/references/principles.md`](writing-well/references/principles.md) — expanded notes on each of the Ten Rules with passages from the book.
-- [`writing-well/references/examples.md`](writing-well/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
-- [`writing-well/references/checklist.md`](writing-well/references/checklist.md) — standalone copy of the pre-delivery checklist.
+- [`better-language/SKILL.md`](better-language/SKILL.md) — main skill file with the Ten Rules and Pre-Delivery Checklist.
+- [`better-language/references/clutter.md`](better-language/references/clutter.md) — detailed clutter, journalese, and jargon hit list with replacements.
+- [`better-language/references/principles.md`](better-language/references/principles.md) — expanded notes on each of the Ten Rules with passages from the book.
+- [`better-language/references/examples.md`](better-language/references/examples.md) — seven before/after rewrites (status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note).
+- [`better-language/references/checklist.md`](better-language/references/checklist.md) — standalone copy of the pre-delivery checklist.
 
 Everything else is tooling:
 
 - [`build.sh`](build.sh) — validates the source and builds the `.skill` archive.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to propose a change, and the two constraints to respect.
 
-The `writing-well.skill` archive is a build output. It isn't committed — CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-writing-well-skill/releases).
+The `better-language.skill` archive is a build output. It isn't committed — CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-writing-well-skill/releases).
 
 ## Credits
 
