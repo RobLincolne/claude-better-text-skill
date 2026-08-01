@@ -140,7 +140,7 @@ Develop one voice. Do not change voice based on subject. A Zinsser-trained write
 
 Beyond Zinsser, watch for AI-specific patterns in your own drafts. If the [deslop](../deslop/SKILL.md) skill is available, defer to it on these. At minimum, before you deliver, check for:
 
-- Em dashes, especially the parenthetical em-dash pair, which is the strongest single AI tell. Use commas, periods, colons, or parentheses instead. (One em dash in a longer piece is fine if it earns its keep. Multiple em dashes per paragraph is a signal that a language model wrote it.)
+- Em dashes, especially the parenthetical em-dash pair, which is the strongest single AI tell. Use commas, periods, or parentheses instead. (One em dash in a longer piece is fine if it earns its keep. Multiple em dashes per paragraph is a signal that a language model wrote it.)
 - Antithesis and contrast scaffolding. See the dedicated section below — this is the single most pervasive AI rhetorical tic.
 - Self-posed rhetorical questions you immediately answer ("The result? Devastating."). Fold into a statement.
 - Three-item lists when two would do. Two specific items beats three vague ones.
