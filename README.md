@@ -1,6 +1,6 @@
 # claude-better-text-skill
 
-A Claude skill inspired by my experience of William Zinsser's *On Writing Well*, applying its principles to any nonfiction prose Claude writes or revises. It also tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them. I want to push that part much further.
+A Claude skill inspired by my visceral reaction to AI generated prose, my experience of William Zinsser's *On Writing Well*, and that rash I get when reading words that don't need to be there. It  tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them. I want to push that part further.
 
 It auto-applies whenever Claude drafts, edits, or reviews prose. Emails, articles, memos, letters, blog posts, newsletters, reports, cover letters, announcements, status updates, anything substantial. Complements the standalone `deslop` skill.
 
