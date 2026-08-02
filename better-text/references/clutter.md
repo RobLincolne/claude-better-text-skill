@@ -524,6 +524,25 @@ Assistant tics that leak into prose:
 - "Let me know if you'd like me to"
 - "You're absolutely right"
 
+## Status Verbs That Fail the Camera Test
+
+Could you film the verb happening? Where the answer is no, the line reports importance rather than function, and House Style C applies. Short lines fail this more often than paragraphs, because a headline has room for one verb and the status verb feels weightier.
+
+| Cut | Ask instead |
+|---|---|
+| sets the standard / the reference point | What does it do that nobody else does? |
+| makes this a bigger company | What does it sell now that it could not sell before? |
+| positions us as / establishes us as | Who buys it, and for what? |
+| represents / signals / reflects / speaks to | What happened? |
+| demonstrates / validates / proves out | What is the number? |
+| cements / underscores / highlights | Delete the line. The fact above already carries it. |
+| unlocks / enables / empowers | What can the user now do? |
+| is well placed to / is positioned to | What has it already done? |
+
+- "ProofVault sets the MENA reference point for frontline workforce proof." → "ProofVault scores worker decisions in Arabic, which no competitor does."
+- "V2 makes this a bigger company." → "V2 sells into logistics, retail and mobility as well as security."
+- "The round validates our GTM thesis." → "The round funds twelve months of KSA selling."
+
 ## Format Tells
 
 - Bold-first bullets where every item opens with a bolded keyword and a colon.
@@ -532,6 +551,18 @@ Assistant tics that leak into prose:
 - A closing section restating the piece ("Key takeaways," "In summary," "TL;DR" at the end).
 - Emoji as section markers.
 - Bold applied to a phrase in most paragraphs.
+
+### The echo line
+
+A section or slide ending with a summary line that restates a bullet already on it. Deck templates reserve a slot for the takeaway, and the slot gets filled whether or not anything is left to say.
+
+| Bullet already on the slide | Echo line to cut |
+|---|---|
+| Training budgets are shifting from attendance records to measured worker capability | Buyers move from attendance logs to worker-level proof. |
+| Saudi-first, with a working expansion path into GCC and MENA | KSA security proves the model before V2 scales it across GCC and MENA. |
+| Adjacent players show the sector forming, with room for several winners | The category is forming now. |
+
+**Test.** Read each closing line against the bullets above it. Overlapping content means cut the closer rather than reword it. A closer that survives still has to pass House Style C and D, since the takeaway slot is where slogans and status verbs collect.
 
 ## The Read-Aloud Test
 

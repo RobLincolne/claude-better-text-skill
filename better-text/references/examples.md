@@ -237,6 +237,38 @@ Three lines from a briefing deck that passed an antithesis check and a first bal
 
 ---
 
+## 11. Section Closers (House Style C and the echo line)
+
+Deck sections reserve a slot for the takeaway line. The slot gets filled whether or not a fact is left over, so it collects restatements and status verbs.
+
+**Before,** three sections of one slide, each with its bullets and its closer:
+
+> **Why Orbit should lean in**
+> - Saudi-first, with a working expansion path into GCC and MENA
+> - *Closer:* "KSA security proves the model before V2 scales it across GCC and MENA."
+>
+> **Why this is a category moment**
+> - Training budgets are shifting from attendance records to measured worker capability
+> - *Closer:* "Buyers move from attendance logs to worker-level proof."
+>
+> **Why Orbit can improve returns**
+> - Early exposure to a MENA workforce-tech category before it crowds
+> - *Closer:* "ProofVault sets the MENA reference point for frontline workforce proof."
+
+**After:**
+
+> Closers 1 and 2 cut. Closer 3 replaced with "ProofVault scores worker decisions in Arabic, which no competitor does."
+
+**Changes:**
+
+- **Closer 1** restates the bullet above it and welds two subjects with "before." Two defects, one line, and the bullet already carries the fact. Cut.
+- **Closer 2** restates its bullet in different words. "Training budgets shifting from attendance records to measured capability" and "buyers moving from attendance logs to worker-level proof" are one fact stated twice. Cut.
+- **Closer 3** adds no restatement, so it survives the echo test, then fails the camera test. You cannot film a company setting a reference point. The replacement names the thing it does and the reason it holds.
+
+**The order matters.** Run the echo test first, because a line that gets cut needs no rewrite. Only the survivors go to the camera test.
+
+---
+
 ## Recurring Moves
 
 The same edits keep working across formats.
@@ -252,4 +284,6 @@ The same edits keep working across formats.
 9. **Give a review specific edits.** "Move sentence X to position Y" beats "tighten the messaging."
 10. **Resolve every balanced pair.** Cut to the half that carries the point, or give each half its own line.
 11. **Trade every metaphor for the function it hides.** "The moat" → what competitors cannot copy.
-12. **Read it aloud before sending.**
+12. **Cut any closer that restates the bullet above it.** The takeaway slot is not an obligation.
+13. **Run the camera test on every headline.** A verb you cannot film is a status claim.
+14. **Read it aloud before sending.**

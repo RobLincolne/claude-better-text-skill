@@ -83,11 +83,13 @@ Run this before handing prose back. It takes under a minute.
 - [ ] No magic adverbs: "quietly," "fundamentally," "increasingly," "rapidly," "seamlessly."
 - [ ] No stakes inflation ("far-reaching implications," "transformative"). Name the consequence.
 - [ ] No bold-first bullets, no "Key takeaways" close, no emoji as section markers.
+- [ ] No echo line. Every section closer checked against the bullets above it, and cut where the content overlaps.
 
 **House style**
 - [ ] Articles cut wherever grammar survives (A).
 - [ ] No colon or semicolon in body prose. A colon before a list is fine (B).
 - [ ] Each sentence states an action by a named actor, not why it matters (C).
+- [ ] Camera test run on every headline and bullet. No "sets the standard," "makes this bigger," "positions us as," "demonstrates," "unlocks" (C).
 - [ ] One proposition per line. Ladder run in order rather than defaulting to a merge (D).
 - [ ] No metaphor doing the work of a description (E).
 - [ ] B vs. D checked the right way round. A second half that elaborates the same subject splits, while one that introduces a second subject goes to the D ladder.

@@ -98,6 +98,23 @@ Split each one into short declarative sentences. "Scoring is deterministic: foun
 
 Lead each sentence with an actor and an action verb. Describe function. Drop significance framing on sight: "this matters because," "the result is," "which enables," "this means that," "underscores," "highlights the importance of." "The event log makes the round narrative reconstructible" → "Every change lands in an append-only event log. The story of the round replays at any time." A reader who has the function will infer the importance.
 
+**The camera test.** Could you film the verb happening? "ProofVault scores every decision in Arabic" is filmable. "ProofVault sets the MENA reference point" is not, because setting a reference point is a status claim wearing a verb. Where the verb fails the test, name the action or the number underneath it.
+
+Short lines fail this more often than paragraphs do, because a headline or a bullet has room for one verb and the status verb feels weightier. Watch these:
+
+| Cut | Ask instead |
+|---|---|
+| sets the standard / the reference point | What does it do that nobody else does? |
+| makes this a bigger company | What does it sell now that it could not sell before? |
+| positions us as / establishes us as | Who buys it, and for what? |
+| represents / signals / reflects | What happened? |
+| demonstrates / validates / proves out | What is the number? |
+| cements / underscores / highlights | Delete the line. The fact above already carries it. |
+| unlocks / enables | What can the user now do? |
+
+- "ProofVault sets the MENA reference point for frontline workforce proof." → "ProofVault scores worker decisions in Arabic, which no competitor does."
+- "V2 makes this a bigger company." → "V2 sells into logistics, retail and mobility as well as security."
+
 ### D. One line, one proposition.
 
 A proposition is one subject doing one thing. Where a line carries two, the reader has to hold both and work out which one matters, and that work belongs to the writer.
@@ -265,6 +282,7 @@ Sentence 1 promises something and sentence 2 supplies it. "This round funds one 
 - A bulleted list standing in for a paragraph that has three clauses.
 - Headers with explanatory tails ("Pricing: what it costs and why").
 - A closing section that restates the piece ("Key takeaways," "In summary").
+- **The echo line.** A section or slide that ends with a summary line restating a bullet already on it. Deck templates reserve a slot for the takeaway, and the slot gets filled whether or not there is anything left to say. "Training budgets are shifting from attendance records to measured worker capability" followed by a closer reading "Buyers move from attendance logs to worker-level proof" states one fact twice. Test each closing line against the bullets above it. Overlapping content means cut the closer, not reword it. A closer that survives still has to pass C and D.
 - Emoji as section markers.
 
 [references/clutter.md](references/clutter.md) holds the full lists with replacements.
