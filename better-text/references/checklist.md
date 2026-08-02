@@ -1,88 +1,106 @@
 # Pre-Delivery Checklist
 
-A single-page checklist to run before handing prose back to the user. Should take under a minute.
+Run this before handing prose back. It takes under a minute.
 
 ## The Pass
 
 **Lead**
-- [ ] Does the first sentence earn the reader's attention?
-- [ ] Could the piece start at sentence 2 or paragraph 2 or 3? (Usually yes. Cut.)
-- [ ] No throat-clearing openers ("I wanted to reach out," "I hope this finds you well," "In this email I want to discuss…")
+- [ ] First sentence carries information, not announcement.
+- [ ] Piece cannot start later (sentence 2, paragraph 2 or 3). Usually it can. Cut.
+- [ ] No "I wanted to reach out," "I hope this finds you well," "In this email I want to discuss…"
 
 **Length**
-- [ ] Can I cut 20% without losing anything? Try.
-- [ ] Any paragraph that doesn't earn its place relative to the one point of the piece?
+- [ ] Cut 20%.
+- [ ] Every paragraph earns its place against the one point.
 
 **Verbs**
-- [ ] Main verbs active and specific?
-- [ ] No leaning on "is," "was," "has," "makes," "does"?
-- [ ] No verb propped up by an adverb when a stronger verb exists?
+- [ ] Main verbs active and specific.
+- [ ] No leaning on "is," "was," "has," "makes," "does."
+- [ ] No verb propped up by an adverb where one stronger verb exists.
 
 **Adverbs and adjectives**
-- [ ] Deleted at least one adverb per paragraph?
-- [ ] Deleted obvious-stating adjectives ("tall skyscraper," "personal opinion")?
-- [ ] No "really," "very," "just," "actually," "basically," "essentially," "literally"?
+- [ ] At least one adverb deleted per paragraph.
+- [ ] No adjective stating a known fact ("tall skyscraper," "personal opinion").
+- [ ] No "really," "very," "just," "actually," "basically," "essentially," "literally."
 
-**Clutter words**
-- [ ] No "kind of," "sort of," "a bit," "in a sense"?
-- [ ] No "It is worth noting," "I might add," "It should be pointed out"?
-- [ ] No "going forward," "at this point in time," "in terms of"?
+**Clutter**
+- [ ] No "kind of," "sort of," "a bit," "in a sense," "arguably."
+- [ ] No "It is worth noting," "I might add," "It should be pointed out."
+- [ ] No "going forward," "at this point in time," "in terms of."
 
 **Long words**
-- [ ] No Latinate words where plain words work? (utilize → use, facilitate → ease, implement → do, attempt → try, numerous → many)
-- [ ] No corporate jargon? (leverage, paradigm, ecosystem, landscape, bandwidth, learnings, deliverables)
+- [ ] No Latinate word where a plain one works (utilize → use, facilitate → ease, implement → do, attempt → try, numerous → many).
+- [ ] No corporate jargon (leverage, paradigm, ecosystem, landscape, bandwidth, learnings, deliverables).
 
 **Passive voice**
-- [ ] Any sentence where I can't tell who did what? Rewrite with a named actor.
-- [ ] No "It was decided," "Mistakes were made," "Initiatives have been undertaken"?
+- [ ] Every sentence names who did what.
+- [ ] No "It was decided," "Mistakes were made," "Initiatives have been undertaken."
 
 **Pronoun and tense**
-- [ ] Consistent first/second/third person throughout?
-- [ ] No accidental tense switches?
+- [ ] One person throughout.
+- [ ] No accidental tense switch.
 
-**Tone**
-- [ ] Same register from start to finish?
-- [ ] No drift into breezy ("Hey folks," "kind of," exclamation marks)?
-- [ ] No drift into corporate ("strategic alignment," "robust framework")?
+**Register**
+- [ ] Same from start to finish.
+- [ ] No drift into breezy ("Hey folks," exclamation marks).
+- [ ] No drift into corporate ("strategic alignment," "robust framework").
 
-**AI tells**
-- [ ] No parenthetical em-dash pairs? (One em dash that earns its keep is OK. A run of em dashes is an AI tell.)
-- [ ] No self-posed rhetorical questions answered immediately?
-- [ ] No three-item lists where two would do?
-- [ ] No bold-first bullets (every bullet starting with a bolded keyword)?
-- [ ] No "In today's rapidly evolving landscape…," "Despite these challenges…," "It's worth noting that…"?
-- [ ] No magic adverbs: "quietly," "fundamentally," "increasingly," "rapidly"?
+**Antithesis** (check this one carefully)
+- [ ] No "It's not X, it's Y" / "It's not just X, it's Y."
+- [ ] No "X isn't the problem. Y is." / "X is solved. Y is the bottleneck."
+- [ ] No "X is done. Y is what matters." / "X is easy. Y is hard."
+- [ ] No "The question isn't X. It's Y." / "This isn't about X. It's about Y."
+- [ ] No "Forget X. Y is the real story."
+- [ ] No two-beat version without negation: "Many think X. The reality is Y." / "On paper, X. In practice, Y." / "Yes, X. But also Y."
+- [ ] Diagnostic run: delete the first ("wrong") sentence. Nothing lost means it stays deleted.
 
-**Antithesis / contrast scaffolding** (the most pervasive AI tic — check carefully)
-- [ ] No "It's not X, it's Y." / "It's not just X, it's Y."?
-- [ ] No "X isn't the problem. Y is." / "X is solved. Y is the bottleneck."?
-- [ ] No "X is done. Y is what matters." / "X is easy. Y is hard."?
-- [ ] No "The question isn't X. It's Y." / "This isn't about X. It's about Y."?
-- [ ] No "Forget X. Y is the real story."?
-- [ ] No subtler two-beat versions: "Many think X. The reality is Y." / "On paper, X. In practice, Y." / "Yes, X. But also Y."?
-- [ ] Diagnostic: can I delete the first ("wrong") sentence in any of these and lose nothing? If yes, delete it.
+**Balanced declarative pairs** (the delete test misses these)
+- [ ] No consecutive sentences running the same frame with swapped subjects. "AI is the engine. Data is the moat." / "V1 proves the wedge. V2 is the platform." / "Speed wins the deal. Trust keeps it."
+- [ ] Detection run: any sentence pair of similar length sharing a verb pattern, with different subjects, read aloud as a slogan.
+- [ ] Each one merged into a single sentence with one subject and a working verb, not deleted (House Style D).
+- [ ] No three-part deck version: "V1 does A. V2 does B. V3 does C."
+- [ ] No metaphor standing in for a description: "the engine," "the moat," "the wedge," "the flywheel," "the unlock," "the rails," "the playbook" (House Style E).
+
+**Other AI tells**
+- [ ] No parenthetical em-dash pairs. One em dash that earns its place is fine.
+- [ ] No self-answered question ("The result? Devastating.").
+- [ ] No tricolon where the content supports one or two items.
+- [ ] No fragment stacking for emphasis ("Every time. No exceptions.").
+- [ ] No three sentences opening with the same phrase.
+- [ ] No "And that's the point" / "Which is exactly why…" close.
+- [ ] No "In today's rapidly evolving landscape," "Despite these challenges," "Here's the thing," "Make no mistake."
+- [ ] No magic adverbs: "quietly," "fundamentally," "increasingly," "rapidly," "seamlessly."
+- [ ] No stakes inflation ("far-reaching implications," "transformative"). Name the consequence.
+- [ ] No bold-first bullets, no "Key takeaways" close, no emoji as section markers.
+
+**House style**
+- [ ] Articles cut wherever grammar survives (A).
+- [ ] No colon or semicolon in body prose. A colon before a list is fine (B).
+- [ ] Each sentence states an action by a named actor, not why it matters (C).
+- [ ] Balanced pairs merged into one sentence with one subject (D).
+- [ ] No metaphor doing the work of a description (E).
+- [ ] B vs. D checked the right way round. A second half that elaborates the same subject splits, while one that introduces a balancing subject merges.
 
 **One point**
-- [ ] Can I still state the piece's one point in one sentence?
-- [ ] If asked "what is this about?" can I answer in fewer than 15 words?
+- [ ] Statable in one sentence, under 15 words.
 
 **Ending**
-- [ ] Does the last sentence land?
-- [ ] No "In conclusion," "To sum up," "All in all"?
-- [ ] No fractal summary of what I just said?
-- [ ] Could the piece end one sentence earlier?
+- [ ] Last sentence lands on a fact.
+- [ ] No "In conclusion," "To sum up," "All in all."
+- [ ] No restatement of what the reader just read.
+- [ ] Piece cannot end one sentence earlier.
 
-**Read it aloud**
-- [ ] Does it flow when spoken?
-- [ ] Any sentence that trips when read aloud? Fix it.
+**Read aloud**
+- [ ] Nothing trips.
 
 ## The 30-Second Version
 
-If you're short on time, run only these six:
+Six checks when time is short.
 
-1. **Cut the first paragraph.** Does the piece still work? Often yes.
-2. **Cut the last sentence.** Does it still close? Often yes.
+1. **Cut the first paragraph.** Does the piece still work? Usually yes.
+2. **Cut the last sentence.** Does it still close? Usually yes.
 3. **Find every adverb. Delete half.**
 4. **Find every "really / very / just / kind of / sort of." Delete all.**
-5. **Hunt every antithesis.** Any "It's not X, it's Y," "The question isn't X, it's Y," "X is done; Y is what matters" — delete the X sentence and keep only the Y point.
-6. **Read it aloud.** Fix whatever trips you.
+5. **Hunt every antithesis.** Delete the X sentence, keep the Y point.
+6. **Hunt every balanced pair.** Two sentences, same shape, swapped subject. Merge into one.
+7. **Read it aloud.** Fix whatever trips.
