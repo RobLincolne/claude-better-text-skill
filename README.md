@@ -20,18 +20,26 @@ Either way you end up with `~/.claude/skills/better-text/`.
 
 It enforces ten rules on every prose output Claude produces.
 
-1. **Simplicity.** Strip every sentence to its cleanest components.
-2. **Clutter elimination.** Hunt pompous euphemisms, prepositions glued to verbs, throat-clearing word clusters, hedges, fad words, and corporate jargon.
-3. **Clear thinking.** A muddy sentence means an unfinished thought. Rewrite it or cut it.
-4. **Real human voice.** Use "I" where context allows. Resist the institutional passive even where it doesn't.
-5. **Style is the person.** Voice is what's left when the clutter goes. Don't reach for it.
-6. **Verbs do the work.** Active over passive, concrete over abstract, short Anglo-Saxon over Latinate, no adverb that duplicates its verb.
-7. **Unity.** One pronoun, one tense, one mood, one attitude. Hold them.
-8. **Think small.** One provocative point per piece, not five.
-9. **Lead and ending.** Grab the reader in sentence one. Land one beat earlier than feels safe.
-10. **Rewriting is writing.** Cut, read aloud, cut again.
+1. **Cut every word that does no work.** Read the sentence without it. If the meaning survives, delete.
+2. **Delete clutter by category.** Pompous euphemism, prepositions glued to verbs, throat-clearing clusters, hedges, Latinate inflation, fad words.
+3. **Rewrite the sentence you cannot write cleanly.** A sentence that resists clean phrasing marks a thought that isn't finished.
+4. **Name the speaker.** Use "I" where context allows. Keep opinion and concrete detail where it doesn't.
+5. **Do not decorate.** Voice is what remains after the clutter goes.
+6. **Put the work in the verbs.** Active over passive, concrete over abstract, Anglo-Saxon over Latinate, no adverb duplicating its verb.
+7. **Hold one pronoun, tense, and register.** Settle person, tense, formality, and stance before drafting.
+8. **Make one point.** Write it down first. Cut any paragraph that doesn't serve it.
+9. **Open with the news. Stop at the last fact.** No announcing openers, no summary close.
+10. **Revise before delivering.** Read aloud, bracket dead words, cut the opening, cut the wrap-up.
 
-A pre-delivery checklist and a deslop-style AI-tells screen run on top.
+Five house-style rules run on top.
+
+- **A.** Cut articles wherever grammar survives without them.
+- **B.** No colons or semicolons in body prose.
+- **C.** Say what a thing does, not what it means.
+- **D.** One statement, one subject. Merge balanced pairs.
+- **E.** No metaphor standing in for a description.
+
+A pre-delivery checklist and an AI-tells screen close the pass.
 
 ## Developing
 
@@ -72,25 +80,41 @@ The skill is also marked default-on for substantial prose, so it kicks in when y
 
 ## Rhetorical-tic coverage
 
-Beyond the Zinsser ten, the skill hunts the most pervasive LLM rhetorical tic, **antithesis**. That covers the "not X but Y" construction and its variants. See the "Antithesis and Contrast Scaffolding" section of `SKILL.md` and the pattern tables in `references/clutter.md`. Banned constructions include:
+Beyond the Zinsser ten, the skill hunts the LLM patterns Zinsser never saw. The primary target is **antithesis**, the "not X but Y" construction and its variants. See the "AI Patterns to Remove" section of `SKILL.md` and the pattern tables in `references/clutter.md`.
+
+Banned constructions include:
 
 - "It's not X, it's Y."
 - "X isn't the problem. Y is."
 - "The question isn't X. It's Y."
 - "X is easy. Y is hard."
 - "X is done. Y is what matters."
-- Subtler two-beat rhythms. "Many think X. The reality is Y." / "On paper, X. In practice, Y."
+- Two-beat rhythms without the negation. "Many think X. The reality is Y." / "On paper, X. In practice, Y."
 
 Never write a sentence whose only job is to be wrong so the next sentence can correct it. State the substantive point directly.
+
+**Balanced declarative pairs** get their own pass, because the antithesis test misses them. Two sentences run the same frame and swap the subject, and both halves are true, so deleting either one loses information.
+
+- "AI generation is the engine. The decision dataset is the moat."
+- "V1 proves the wedge. V2 is the venture-scale platform."
+- "Speed wins the deal. Trust keeps it."
+
+The fix is a merge into one sentence with one subject and a working verb, plus a swap of each pitch metaphor for the function it hides. "AI generation runs on a decision dataset competitors cannot rebuild." These concentrate in slide headlines, pull quotes, and briefing bullets.
+
+The screen also covers patterns that survive a word-level edit:
+
+- **Sentence shapes.** Tricolons, fragment stacking ("Every time. No exceptions."), self-answered questions ("The result? Devastating."), anaphora, parenthetical em-dash pairs, false ranges ("from startups to enterprises").
+- **Phrases.** "Here's the thing," "Make no mistake," "It's worth noting," "delve into," "testament to," "seamlessly," "transformative," plus assistant tics like "Hope this helps."
+- **Format.** Bold-first bullets, headers with explanatory tails, "Key takeaways" closes, emoji as section markers.
 
 ## Files
 
 `better-text/` holds the source of truth. Edit here, then run `./build.sh`.
 
-- [`better-text/SKILL.md`](better-text/SKILL.md) carries the Ten Rules and the Pre-Delivery Checklist.
-- [`better-text/references/clutter.md`](better-text/references/clutter.md) lists clutter, journalese, and jargon with replacements.
-- [`better-text/references/principles.md`](better-text/references/principles.md) expands each of the Ten Rules and explains the reasoning behind it.
-- [`better-text/references/examples.md`](better-text/references/examples.md) works seven before/after rewrites. Status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note.
+- [`better-text/SKILL.md`](better-text/SKILL.md) carries the ten rules, the house style, the AI-tells screen, and the pre-delivery checklist.
+- [`better-text/references/clutter.md`](better-text/references/clutter.md) lists clutter, journalese, jargon, and AI patterns with replacements.
+- [`better-text/references/principles.md`](better-text/references/principles.md) gives the reasoning behind each of the ten rules.
+- [`better-text/references/examples.md`](better-text/references/examples.md) works eight before/after rewrites. Status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note, product copy.
 - [`better-text/references/checklist.md`](better-text/references/checklist.md) copies out the pre-delivery checklist to stand alone.
 
 Everything else is tooling.

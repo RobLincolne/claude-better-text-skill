@@ -1,8 +1,8 @@
-# Clutter, Journalese, and Jargon: A Working Hit List
+# Clutter, Jargon, and AI Patterns: Working Lists
 
-This is the file to skim when reviewing or rewriting. It catalogs the specific words and patterns Zinsser identifies as clutter, plus contemporary equivalents Claude should also cut.
+Skim this file when reviewing or rewriting. It lists the words and patterns Zinsser identifies as clutter, plus the LLM patterns Claude should cut from its own drafts.
 
-## Pompous Euphemisms — Replace With Plain Words
+## Pompous Euphemisms
 
 | Cut | Use |
 |---|---|
@@ -16,7 +16,6 @@ This is the file to skim when reviewing or rewriting. It catalogs the specific w
 | until such time as | until |
 | in close proximity to | near |
 | in the near future | soon |
-| in the event of | if |
 | with regard to / in regard to | about |
 | with respect to | about |
 | on the part of | by |
@@ -24,7 +23,6 @@ This is the file to skim when reviewing or rewriting. It catalogs the specific w
 | a small number of | a few |
 | the majority of | most |
 | at all times | always |
-| at this time | now |
 | in spite of the fact that | although |
 | despite the fact that | although |
 | has the ability to | can |
@@ -34,9 +32,9 @@ This is the file to skim when reviewing or rewriting. It catalogs the specific w
 | under the circumstances | because |
 | in connection with | about |
 | it is incumbent upon us | we must |
-| at your earliest convenience | soon (or pick a date) |
+| at your earliest convenience | soon (or name a date) |
 
-## Long Words Where Short Words Will Do
+## Long Words Where Short Words Work
 
 | Cut | Use |
 |---|---|
@@ -73,12 +71,12 @@ This is the file to skim when reviewing or rewriting. It catalogs the specific w
 
 ## Prepositions Glued to Verbs
 
-The verb is enough. Drop the appendage.
+The verb carries the meaning. Drop the appendage.
 
 - head up → head
 - free up → free
 - face up to → face
-- pen down / write down → write (often)
+- write down → write (often)
 - meet up with → meet
 - divide up → divide
 - finish up → finish
@@ -89,11 +87,11 @@ The verb is enough. Drop the appendage.
 - join up with → join
 - consult with → consult
 - discuss about → discuss
-- end up → end (often deletable entirely)
+- end up → end (often deletable)
 
-## Throat-Clearing Word Clusters
+## Throat-Clearing Clusters
 
-Delete entirely. The point follows.
+Delete the whole cluster. The point follows it.
 
 - It is interesting to note that
 - It should be pointed out that
@@ -116,11 +114,11 @@ Delete entirely. The point follows.
 - That said,
 - Having said that,
 
-If the thing is interesting, make it interesting. Don't announce it.
+Where the thing is interesting, make it interesting. Announcing it does no work.
 
 ## Qualifiers and Hedges
 
-Almost always deletable. Test each by reading the sentence without it.
+Test each by reading the sentence without it. Almost all delete cleanly.
 
 - a bit
 - sort of / kind of
@@ -146,37 +144,35 @@ Almost always deletable. Test each by reading the sentence without it.
 - literally (almost never literal)
 - simply
 
-"This is a pretty important point" → "This is important." (Or cut the sentence — if you have to assert importance, you haven't shown it.)
+"This is a pretty important point" → "This is important." Where importance needs asserting, the evidence for it is missing.
 
 ## Fad Words and Corporate Jargon
-
-Treat as poison in nonfiction prose.
 
 - leverage (as verb) → use
 - ideate → think, plan
 - ecosystem (outside biology)
-- landscape (as metaphor) — "the marketing landscape," "today's evolving landscape"
+- landscape (as metaphor)
 - space (as in "the SaaS space")
 - paradigm / paradigm shift
-- parameter (when not in math)
-- prioritize / re-prioritize / potentialize
+- parameter (outside math)
+- prioritize / re-prioritize
 - interface (as verb) → talk, work with
 - dialogue (as verb) → talk
 - impact (as verb) → affect, hit, change
-- onboard / offboard (as verbs in non-HR contexts)
+- onboard / offboard (as verbs outside HR)
 - circle back → return to, reply later
 - touch base → talk, meet
 - align on → agree on, decide
 - unpack → explain, examine
-- pivot → change direction (use only if literally a strategic shift)
-- bandwidth (when meaning attention) → time
+- pivot → change direction (only for a real strategic shift)
+- bandwidth (meaning attention) → time
 - learnings → lessons, what we learned
-- deliverables → what we'll deliver, the work
+- deliverables → the work, what we'll send
 - actionable insights → things to do
 - value-add → useful, worth doing
 - mission-critical → important, essential
-- robust (almost meaningless)
-- holistic (almost meaningless)
+- robust
+- holistic
 - synergy / synergistic
 - best-in-class
 - world-class
@@ -192,12 +188,12 @@ Treat as poison in nonfiction prose.
 - step-function change
 - 10x (in business contexts)
 
-## Ponderous Euphemism (Real-World Cluttering)
+## Official Euphemism
 
-These are Zinsser's prize specimens. The pattern: official language designed to soften, hide, or inflate. Don't write this way; when reviewing, replace.
+Official language built to soften, hide, or inflate. Replace with the plain term.
 
 - "involuntary methodologies" → layoffs
-- "negative cash-flow position" → losing money / bankrupt
+- "negative cash-flow position" → losing money
 - "volume-related production-schedule adjustment" → plant shutdown
 - "experiencing precipitation" → raining
 - "waste-disposal personnel" → garbage collectors
@@ -205,22 +201,20 @@ These are Zinsser's prize specimens. The pattern: official language designed to 
 - "individual attention for the minimally exceptional" → help for slow learners
 - "depressed socioeconomic area" → slum
 - "rightsizing" / "restructuring" → layoffs
-- "passed away" → died (in most contexts — match register)
+- "passed away" → died (match the register)
 - "let go" / "transitioned out" → fired
 - "headcount reduction" → layoffs
 - "compensation adjustment" → pay cut
 - "performance opportunity" → problem
 - "areas for growth" → weaknesses
-- "challenged" (as in "vertically challenged") → just say the thing
 
-## Journalese (Zinsser's Most Famous List)
+## Journalese
 
-The patois of bad newspaper and magazine writing. Avoid all of it.
+The patois of bad newspaper and magazine writing.
 
 - "fired off a note / letter / memo"
 - "shouldered his way in"
 - "only to be met by"
-- "crashing into his face"
 - "waging a (lonely / four-year / uphill) war"
 - "corruption that is rife"
 - "sending shock waves through"
@@ -237,33 +231,29 @@ The patois of bad newspaper and magazine writing. Avoid all of it.
 - "made headlines"
 - "rocked by scandal"
 - "the much-anticipated"
-- "Brooklyn-based" (when location is irrelevant)
+- "Brooklyn-based" (where location is irrelevant)
 - "tony" (neighborhood)
 - "swanky"
 - "stalwart"
 
 ## Adjective-as-Noun and Noun-as-Verb
 
-Zinsser flags this as a hallmark of journalese.
-
-- "greats" / "notables" (as nouns) → great writers / notable figures
-- "the upcoming" → what's coming up / next month's
-- "to host" (as a transitive verb for ordinary inviting) — sometimes fine in events context, often pretentious
+- "greats" / "notables" → great writers, notable figures
+- "the upcoming" → what's coming, next month's
 - "to gift" → to give
-- "to medal" (in sports) → to win a medal
+- "to medal" → to win a medal
 - "to enthuse" → to be enthusiastic, to say
 - "to emote" → to express feeling
 - "to incentivize" → to motivate, to pay, to reward
+- "to host" (for ordinary inviting). Often pretentious outside events.
 
 ## Adverbs That Duplicate the Verb
-
-The verb already contains the meaning. Cut the adverb.
 
 - shouted loudly → shouted
 - whispered softly → whispered
 - smiled happily → smiled
 - glared angrily → glared
-- ran quickly → ran (or "sprinted")
+- ran quickly → ran, sprinted
 - crept stealthily → crept
 - collaborated together → collaborated
 - planned in advance → planned
@@ -276,7 +266,7 @@ The verb already contains the meaning. Cut the adverb.
 
 - tall skyscraper → skyscraper
 - hot sun → sun
-- frigid winter → winter (the temperature is in context)
+- frigid winter → winter
 - final outcome → outcome
 - end result → result
 - past history → history
@@ -286,32 +276,32 @@ The verb already contains the meaning. Cut the adverb.
 - personal opinion → opinion
 - unexpected surprise → surprise
 
-## Specific Words Zinsser Singles Out
+## Words Zinsser Singles Out
 
-- **"personal"** as adjective ("personal friend of mine," "personal physician," "personal feeling") — almost always cut.
-- **"experiencing"** — the ultimate clutterer. "Are you experiencing any pain?" → "Does it hurt?" "We are experiencing precipitation." → "It's raining."
-- **"currently"** — replace with "now" or delete.
-- **"presently"** — it means "soon," not "now." Most writers misuse it. Use "now."
-- **"hopefully"** at the start of a sentence ("Hopefully we'll arrive on time") — Zinsser disliked this; use "I hope we'll arrive on time."
+- **"personal"** as adjective ("personal friend of mine," "personal physician"). Almost always cut.
+- **"experiencing."** "Are you experiencing any pain?" → "Does it hurt?"
+- **"currently."** Replace with "now" or delete.
+- **"presently."** It means "soon." Most writers mean "now," so write "now."
+- **"hopefully"** at the head of a sentence. Write "I hope."
 
-## Antithesis and Contrast Scaffolding (The Most Pervasive AI Tic)
+## Antithesis and Contrast Scaffolding
 
-The rhetorical name is *antithesis*, specifically the "not X but Y" construction. LLMs reach for it constantly because it feels punchy and structured. It pads length, delays the actual information, and reads as machine-generated.
+The most pervasive LLM tic. The rhetorical name is *antithesis*, best known as the "not X but Y" construction. It pads length and delays the information.
 
-**The rule:** Never write a sentence whose only job is to be wrong so the next sentence can correct it. No throat-clearing dichotomies. Lead with the substantive point.
+**Rule:** never write a sentence whose only job is to be wrong so the next sentence can correct it.
 
-**Diagnostic:** If you can delete the first sentence (the "wrong" one) and the paragraph still makes sense, the first sentence was scaffolding, not content. Delete it.
+**Diagnostic:** delete the first sentence, the "wrong" one. Where the paragraph still makes sense, that sentence was scaffolding.
 
-### Explicit-negation patterns
+### Explicit negation
 
 | Cut | Use |
 |---|---|
-| It's not X, it's Y. | Just write Y. |
-| It's not just X — it's Y. | Just write Y. |
-| It's not only X, but also Y. | Just write Y. |
+| It's not X, it's Y. | Write Y. |
+| It's not just X, it's Y. | Write Y. |
+| It's not only X, but also Y. | Write Y. |
 | X isn't the problem. Y is. | Y is the problem. |
 | X is solved. Y is the bottleneck. | Y is the bottleneck. |
-| X is done. Y is what matters. | State the point about Y directly. |
+| X is done. Y is what matters. | State the point about Y. |
 | The question isn't X. It's Y. | Ask Y. |
 | X is easy. Y is hard. | Say why Y is hard. |
 | This isn't about X. It's about Y. | Lead with Y. |
@@ -321,56 +311,169 @@ The rhetorical name is *antithesis*, specifically the "not X but Y" construction
 | Don't think of it as X. Think of it as Y. | Describe it as Y. |
 | Sure, X. But Y. | State Y. |
 
-### Subtler two-beat rhythms (same tic, no explicit negation)
+### Two-beat rhythms without negation
 
 | Cut | Use |
 |---|---|
-| Many people think X. The reality is Y. | The reality is Y. (Or: just describe Y.) |
+| Many people think X. The reality is Y. | Describe Y. |
 | On paper, X. In practice, Y. | In practice, Y. |
-| Yes, X. But also Y. | Both X and Y. (Or skip X if it adds nothing.) |
+| Yes, X. But also Y. | Both X and Y, or drop X. |
 | X is the obvious answer. Y is the right one. | Y is the right answer. |
-| Everyone talks about X. Nobody talks about Y. | Y matters and is under-discussed. |
+| Everyone talks about X. Nobody talks about Y. | Y matters and gets little attention. |
 | X looks like the win. Y is the actual win. | Y is the win. |
+| The X problem has a name. It's Y. | The X problem is Y. |
+| What if the problem isn't X at all? | State what the problem is. |
 
-When you catch yourself setting up a foil just to knock it down, stop. State the substantive point and move on.
+## Balanced Declarative Pairs
 
-## AI-Era Additions (Not in Zinsser, but in the spirit of the book)
+The same two-beat rhythm with both halves true. Two sentences run the same frame, usually Subject + is + noun phrase, and swap the subject. The rhetorical name is *isocolon*.
 
-These are modern equivalents of the clutter Zinsser hated. Same surgery applies.
+Deleting the first sentence does not fix these, because both halves carry information. That is why they survive an antithesis pass. Merge them into one sentence with one subject and a working verb.
+
+They concentrate in slide headlines, pull quotes, briefing bullets, and taglines, because those formats invite the aphorism. Check deck and one-pager copy line by line.
+
+| Cut | Use |
+|---|---|
+| AI generation is the engine. The decision dataset is the moat. | AI generation runs on a decision dataset competitors cannot rebuild. |
+| KSA is the proof market. The company scales across the GCC. | Company proves the model in KSA, then scales across the GCC. |
+| V1 proves the wedge and the access. V2 is the venture-scale platform. | V1 proves the access before V2 turns it into a platform. |
+| Speed wins the deal. Trust keeps it. | Speed wins the deal and trust keeps it. |
+| Anyone can build the model. Nobody else has the data. | Competitors can build the model without getting the data. |
+| The tech is commoditised. The distribution is not. | Distribution stays hard while the tech commoditises. |
+| Hardware gets cheaper every year. Talent does not. | Hardware gets cheaper every year while talent costs more. |
+| V1 does A. V2 does B. V3 does C. | One sentence carrying the stages in order. |
+
+**Detection.** Scan consecutive sentence pairs. Flag any pair where the sentences sit within a few words of the same length, share a verb or verb pattern, and carry different subjects. Read the pair aloud. A slogan cadence confirms it.
+
+**Merge connectives that do real work:** a relative clause ("that competitors cannot rebuild"), a time word ("then," "before," "once," "while"), a participle ("forming," "running on"), or a plain "and" where the two halves are genuinely equal.
+
+## Metaphor Standing In for a Description
+
+Pitch vocabulary hides the function behind a noun. Say what the thing does. Where the term belongs to the client, use it once and explain it in plain words at the same time.
+
+| Cut | Use |
+|---|---|
+| the engine | what generates the output |
+| the moat | what competitors cannot copy, and why |
+| the wedge | the first thing sold |
+| the flywheel | what makes the next sale cheaper |
+| the beachhead | the first market |
+| the unlock | what became possible |
+| the playbook | the steps |
+| the rails | the infrastructure it runs on |
+| the backbone | the system underneath |
+| the secret sauce | the specific technique |
+| the north star | the metric |
+| the company DNA | how the company works |
+| the muscle | the capability |
+| the superpower | what it does better, and by how much |
+| land and expand | sell small, then sell more |
+| the last mile | the final step |
+| the killer app | the use it sells on |
+| venture-scale | the revenue or market figure |
+| at scale | the number it reaches |
+
+Never build a sentence pair from two metaphors set against each other. That produces the "engine and moat" cadence above and states no fact at all.
+
+## Sentence-Shape Tells
+
+Patterns that survive a word-level edit and still read as machine-written.
+
+| Pattern | Example | Fix |
+|---|---|---|
+| Balanced declarative pair | "AI is the engine. Data is the moat." | Merge into one sentence with one subject. |
+| Tricolon | "Faster, cheaper, and more reliable." | Name the one item that is measurable. |
+| Fragment stacking | "Every time. No exceptions." | Write one full sentence. |
+| Self-answered question | "The result? Devastating." | Fold into a statement. |
+| Anaphora | Three sentences opening "We built…" | Vary the openings or merge the sentences. |
+| Isolated one-line paragraph | A short sentence set alone for weight | Return it to its paragraph. |
+| Emphatic close | "And that's the point." / "Which is exactly why…" | Delete. The point was already made. |
+| Parenthetical em-dash pair | "The tool, once configured — and it configures fast — runs unattended." | Commas, periods, or parentheses. |
+| False range | "From startups to enterprises." | Name the actual span or drop it. |
+| Hedged superlative | "Perhaps the most important shift in a decade." | State the measured change. |
+
+## Word and Phrase Tells
+
+Openers to delete whole:
 
 - "In today's rapidly evolving [X] landscape"
-- "It's not just X — it's Y"
-- "Here's the thing:"
-- "Let that sink in."
+- "In an era where"
+- "Here's the thing"
+- "Let's be clear"
 - "Make no mistake"
 - "The reality is that"
-- "At its core,"
-- "Fundamentally"
-- "Increasingly"
-- "Quietly" (as in "X is quietly reshaping Y")
-- "delve into"
-- "navigate the complexities of"
-- "tapestry"
-- "rich tapestry"
+- "At its core"
+- "Let that sink in"
+- "Despite these challenges"
+
+Hedged authority markers:
+
+- "It's worth noting that"
+- "It is important to note that"
+- "Notably" / "Importantly" / "Crucially"
+- "That said"
+- "To be fair"
+
+Magic adverbs carrying no measurement:
+
+- quietly (as in "quietly reshaping")
+- fundamentally
+- increasingly
+- rapidly
+- seamlessly
+- effectively
+
+Stakes inflation. Name the specific consequence instead:
+
+- "far-reaching implications"
+- "fundamentally reshape"
+- "paradigm shift"
+- "game-changing"
+- "transformative"
+- "groundbreaking"
+- "a watershed moment"
+
+Praise nouns and set phrases:
+
+- "stands as a testament to"
+- "remains a cornerstone of"
+- "plays a pivotal role in"
+- "serves as a"
+- "rich tapestry" / "tapestry"
 - "robust framework"
 - "nuanced perspective"
 - "multifaceted approach"
 - "comprehensive solution"
 - "innovative approach"
-- "groundbreaking"
-- "transformative"
-- "seamlessly integrate"
-- "serves as a"
-- "stands as a testament to"
-- "plays a pivotal role in"
-- "remains a cornerstone of"
 - "in the realm of"
-- "from X to Y" (false-range constructions)
-- "It's worth noting that"
-- "It is important to note that"
 
-When you spot one of these in your own draft, cut it. State the specific thing instead.
+Motion verbs with no object:
 
-## The Single Best Diagnostic
+- "delve into"
+- "navigate the complexities of"
+- "unlock"
+- "elevate"
+- "supercharge"
+- "dive in"
+- "harness"
 
-Read the sentence aloud. If it sounds like a press release, a corporate memo, an AI assistant, or a self-important professor — it's clutter. The voice you want is a literate human speaking plainly to another literate human.
+Assistant tics that leak into prose:
+
+- "I'd be happy to"
+- "Great question"
+- "Hope this helps"
+- "Let me know if you'd like me to"
+- "You're absolutely right"
+
+## Format Tells
+
+- Bold-first bullets where every item opens with a bolded keyword and a colon.
+- A bulleted list replacing a paragraph that has three clauses in it.
+- Headers with explanatory tails ("Pricing: what it costs and why").
+- A closing section restating the piece ("Key takeaways," "In summary," "TL;DR" at the end).
+- Emoji as section markers.
+- Bold applied to a phrase in most paragraphs.
+
+## The Read-Aloud Test
+
+Read the sentence aloud. Where it sounds like a press release, a corporate memo, or an AI assistant, it needs the cut. The target is one literate person speaking plainly to another.

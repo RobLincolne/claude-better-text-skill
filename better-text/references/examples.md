@@ -1,10 +1,10 @@
 # Before/After Rewrites
 
-Concrete examples of the Ten Rules applied to common prose formats. Read these to calibrate what "good" looks like before you draft.
+Worked examples across common formats. Read these to calibrate before drafting.
 
 ---
 
-## Example 1: Status-Update Email (Corporate Slop → Plain)
+## 1. Status-Update Email
 
 **Before** (114 words):
 
@@ -19,23 +19,24 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 > Hi team,
 >
-> Quick Q2 update. We're behind on the roadmap. The cause is staffing: we lost two engineers in April and haven't backfilled. I'll send a revised plan Friday with cuts and dates. Two items will slip to Q3. The rest holds.
+> Quick Q2 update. We're behind on the roadmap. The cause is staffing. We lost two engineers in April and haven't backfilled. I'll send a revised plan Friday with cuts and dates. Two items slip to Q3. The rest holds.
 >
 > Thanks for the patience.
 >
 > R.
 
-**What changed:**
-- Cut throat-clearing ("I wanted to take a moment," "As many of you are aware").
-- Replaced jargon: "leverage our existing bandwidth more strategically," "navigate the complexities," "concrete deliverables."
-- Named the specific problem (staffing, lost two engineers) instead of "challenges in terms of resource allocation."
-- Replaced "I'll circle back" with a specific deliverable and date.
-- Cut the false-uplift ("doing some really great work").
-- Length: 54% reduction. Same information.
+**Changes:**
+
+- Cut the throat-clearing ("I wanted to take a moment," "As many of you are aware").
+- Replaced the jargon: "leverage our existing bandwidth more strategically," "navigate the complexities," "concrete deliverables."
+- Named the problem (two engineers lost in April) in place of "challenges in terms of resource allocation."
+- Replaced "I'll circle back" with a deliverable and a date.
+- Cut the false uplift ("doing some really great work").
+- 54% shorter, same information.
 
 ---
 
-## Example 2: Project Memo Lead (Generic → Specific)
+## 2. Project Memo Lead
 
 **Before:**
 
@@ -43,17 +44,17 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 **After:**
 
-> Our NPS dropped twelve points last quarter. The drop came from one segment (small-business customers on the Pro plan) and from one cause: support response times. This memo proposes three changes.
+> Our NPS dropped twelve points last quarter. The drop came from one segment, small-business customers on the Pro plan. The cause was support response time. This memo proposes three changes.
 
-**What changed:**
+**Changes:**
+
 - Cut "rapidly evolving landscape," "holistic approach," "navigate," "explore," "key considerations."
-- Replaced abstraction ("customer engagement") with a number (12-point NPS drop) and a specific segment.
-- Removed self-announcement ("This memo will explore…") and instead opened with the news.
-- The reader now wants paragraph two.
+- Replaced the abstraction ("customer engagement") with a number and a named segment.
+- Cut the self-announcement ("This memo will explore…") and opened on the news.
 
 ---
 
-## Example 3: Blog Post Opening (Breezy + Padded → Plain)
+## 3. Blog Post Opening
 
 **Before:**
 
@@ -61,17 +62,18 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 **After:**
 
-> Most people I work with have replaced two of their morning tools, calendar review and inbox triage, with a five-minute Claude prompt. They didn't plan to. They just stopped opening the other apps. That's the change worth paying attention to.
+> Most people I work with have replaced two morning tools, calendar review and inbox triage, with a five-minute Claude prompt. They didn't plan to. They stopped opening the other apps.
 
-**What changed:**
-- Killed breezy openers ("Hey folks," "So today I want to talk about").
-- Removed AI-tells: "quietly reshaping," "hot take," "hear me out," "unpacking together."
-- Replaced the abstract claim ("AI is reshaping productivity") with a specific observed behavior.
-- Cut the meta-framing entirely. The reader is now in the room.
+**Changes:**
+
+- Cut the breezy openers ("Hey folks," "So today I want to talk about").
+- Cut the AI tells: "quietly reshaping," "hot take," "hear me out," "unpacking together."
+- Replaced the abstract claim with an observed behaviour.
+- Cut the meta-framing, so the reader starts inside the subject.
 
 ---
 
-## Example 4: Cover Letter Paragraph (Inflation → Concrete)
+## 4. Cover Letter Paragraph
 
 **Before:**
 
@@ -79,16 +81,17 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 **After:**
 
-> I'm applying for the Senior PM role. In my last job, I owned the checkout redesign at Acme: 14 weeks, three engineers, conversion up 9%. Before that I led the migration off Salesforce, a year-long project that came in under budget. I think both stories will be useful to your team given the platform work in the job post.
+> I'm applying for the Senior PM role. In my last job I owned the checkout redesign at Acme. Fourteen weeks, three engineers, conversion up 9%. Before that I led the migration off Salesforce, a year-long project that came in under budget. Both are close to the platform work in your job post.
 
-**What changed:**
-- Replaced "demonstrated an ability to drive cross-functional alignment" with two named projects, scope, duration, and result.
-- Cut "passionate," "leveraging," "data-driven insights," "strategic decision-making." All empty.
-- Replaced "I believe my experience would be a strong fit" (a wish) with a specific connection to the job post (an argument).
+**Changes:**
+
+- Replaced "demonstrated an ability to drive cross-functional alignment" with two named projects, their scope, and their results.
+- Cut "passionate," "leveraging," "data-driven insights," "strategic decision-making."
+- Replaced the wish ("I believe my experience would be a strong fit") with a stated connection to the posting.
 
 ---
 
-## Example 5: Apology Email (Hedged → Direct)
+## 5. Apology Email
 
 **Before:**
 
@@ -98,19 +101,20 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 **After:**
 
-> Sarah, I'm late on the contract revisions and I owe you an apology. No good excuse; the week got away from me. I'll send the marked-up draft by Wednesday EOD. If that slips, I'll let you know Tuesday morning.
+> Sarah, I'm late on the contract revisions and I owe you an apology. No good excuse. The week got away from me. I'll send the marked-up draft by Wednesday end of day. If that slips, I'll tell you Tuesday morning.
 >
 > Thanks for the patience.
 
-**What changed:**
-- Removed "somewhat regrettable" (hedge), "competing priorities" (corporate euphemism), and "bandwidth to give your request the attention it deserves" (long, evasive).
-- Took ownership ("No good excuse") instead of explaining.
-- Replaced "as quickly as possible" with a specific date.
-- Made the failure path explicit ("If that slips, I'll let you know Tuesday morning"). A real apology includes the next deadline and what happens if it's missed.
+**Changes:**
+
+- Cut "somewhat regrettable" (hedge), "competing priorities" (euphemism), and "bandwidth to give your request the attention it deserves."
+- Took the blame in four words instead of explaining.
+- Replaced "as quickly as possible" with a date.
+- Added the failure path. A working apology carries the new deadline and what happens when it slips.
 
 ---
 
-## Example 6: Internal Announcement (Press-Release Voice → Human)
+## 6. Internal Announcement
 
 **Before:**
 
@@ -118,16 +122,17 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 
 **After:**
 
-> Jane Smith starts Monday as VP of Engineering. She spent the last six years scaling the platform team at Linear from 12 to 80 engineers. Before that she was a senior IC at Stripe. She'll be running an all-hands intro on her second week; the calendar invite is coming. Say hi when you see her in #general.
+> Jane Smith starts Monday as VP of Engineering. She spent six years scaling the platform team at Linear from 12 to 80 engineers. Before that she was a senior IC at Stripe. She'll run an all-hands intro in her second week. Calendar invite is coming. Say hi in #general.
 
-**What changed:**
-- Killed "thrilled to announce," "wealth of experience," "proven track record," "world-class," "instrumental," "empowering," "innovative technology solutions."
-- Replaced vague praise with two specific prior roles and one specific number.
-- Added two concrete next steps (intro all-hands, Slack channel) so the reader knows what to do.
+**Changes:**
+
+- Cut "thrilled to announce," "wealth of experience," "proven track record," "world-class," "instrumental," "empowering," "innovative technology solutions."
+- Replaced the praise with two prior roles and one number.
+- Added two next steps, so the reader knows what to do.
 
 ---
 
-## Example 7: Review Note (Vague → Useful)
+## 7. Review Note
 
 **Before:**
 
@@ -136,30 +141,86 @@ Concrete examples of the Ten Rules applied to common prose formats. Read these t
 **After:**
 
 > The doc is close. Two changes will get it there:
+>
 > 1. The lead is buried in paragraph three. Move "Our churn doubled in March" to sentence one.
 > 2. The pricing section repeats itself. Paragraphs 6 and 9 say the same thing. Cut paragraph 9.
 >
 > Everything else is fine.
 
-**What changed:**
-- Replaced vague approval ("really good place," "solid piece of work") with specific judgment.
-- Replaced vague critique ("tighten things up," "make the messaging clearer") with two specific edits.
-- Removed the social-grease close ("happy to discuss further").
-- The recipient now knows exactly what to do.
+**Changes:**
+
+- Replaced the vague approval ("really good place," "solid piece of work") with a judgment.
+- Replaced the vague critique ("tighten things up") with two edits, each naming a location.
+- Cut the social grease ("happy to discuss further").
 
 ---
 
-## Pattern Bank: The Moves That Recur
+## 8. Product Copy (House Style A, B, C)
 
-Across all these rewrites, the same moves keep working. Internalize them.
+**Before:**
 
-1. **Open with the news, not with throat-clearing.** Cut every opener that announces what the piece is about. Start with the thing.
-2. **Replace abstract nouns with numbers, names, and dates.** "Resource allocation challenges" → "We lost two engineers in April." "Customer feedback was negative" → "Three customers asked for a refund."
-3. **Cut "really," "very," "just," "actually," "basically," "essentially."** These never help.
-4. **Replace "I wanted to reach out" with the actual content.** Same for "I hope this finds you well."
-5. **Make the actor visible.** "It was decided" → "We decided." "Mistakes were made" → "I missed the deadline."
-6. **End on a specific next step or a closed thought.** Not on a wave goodbye.
-7. **When apologizing, take it.** Don't explain. Give a new deadline and the failure-path plan.
-8. **When announcing, give the reader something to do.** A date, a channel, a name to ping.
-9. **When reviewing, give specific edits, not vibes.** "Move sentence X to position Y" beats "tighten the messaging."
-10. **Read it aloud before sending.** Anything you trip on, fix.
+> Smart Match: find the right investors in seconds
+>
+> Our matching engine leverages a comprehensive graph of firm-level signals to surface the investors most likely to engage with your round. Scoring is deterministic: this means founders can see exactly why each firm ranked as it did, which enables a level of transparency that is rare in this space. The event log makes the round narrative fully reconstructible, and the result is a fundraising process you can actually trust.
+
+**After:**
+
+> Smart Match
+>
+> Engine scores every firm in the graph against your round. Scoring is deterministic. Founders see why each firm ranked strong, possible or weak. Every change lands in an append-only event log. Story of the round replays at any time.
+
+**Changes:**
+
+- Cut the explanatory tail off the heading (House Style B).
+- Cut articles throughout: "Engine scores," "Story of the round replays" (House Style A).
+- Split the colon and the trailing clause into declarative sentences (House Style B).
+- Replaced significance framing ("this means," "which enables," "the result is") with the function itself (House Style C).
+- Cut "leverages," "comprehensive," "fully," "actually," "in this space."
+- 78 words down to 42.
+
+---
+
+## 9. Briefing Points and Slide Copy (House Style D and E)
+
+Deck formats invite the aphorism, so the balanced pair concentrates here. Every line below is true on both sides, which is why an antithesis pass leaves them standing.
+
+**Before:**
+
+> - "AI generation is the engine. The decision dataset is the moat."
+> - "KSA is the proof market. The company scales across the GCC."
+> - "V1 proves the wedge and the access. V2 is the venture-scale platform."
+
+**After:**
+
+> - AI generation runs on a decision dataset competitors cannot rebuild.
+> - Company proves the model in KSA, then scales across the GCC.
+> - V1 proves the access before V2 turns it into a platform.
+
+**Changes:**
+
+- Merged each pair into one sentence with one subject and one working verb (House Style D). Deleting a half would have lost information, so the fix is a merge rather than a cut.
+- Replaced the metaphor predicates with the function they were hiding (House Style E). "The moat" became "competitors cannot rebuild." "The engine" disappeared into the verb "runs on."
+- Kept "wedge" out of the third line, where "the access" already names the thing being proved.
+- Cut "venture-scale," a scale adjective carrying no figure.
+- Each line now survives the read-aloud test without landing as a slogan.
+
+**Where a client term has to stay:** use it once and explain it in the same sentence. "AI generation runs on a decision dataset competitors cannot rebuild, which is the moat." Use the term once and gloss it in plain words the same time.
+
+---
+
+## Recurring Moves
+
+The same edits keep working across formats.
+
+1. **Open on the news.** Cut every opener that announces the subject.
+2. **Replace abstract nouns with numbers, names, and dates.** "Resource allocation challenges" → "We lost two engineers in April."
+3. **Cut "really," "very," "just," "actually," "basically," "essentially."**
+4. **Replace "I wanted to reach out" with the content.** Same for "I hope this finds you well."
+5. **Name the actor.** "It was decided" → "We decided." "Mistakes were made" → "I missed the deadline."
+6. **Close on a next step or a fact.**
+7. **Take an apology whole.** Skip the explanation, give a new deadline, and say what happens if it slips.
+8. **Give an announcement something to act on.** A date, a channel, a name.
+9. **Give a review specific edits.** "Move sentence X to position Y" beats "tighten the messaging."
+10. **Merge every balanced pair.** Two sentences, same shape, swapped subject, one merged sentence.
+11. **Trade every metaphor for the function it hides.** "The moat" → what competitors cannot copy.
+12. **Read it aloud before sending.**
