@@ -54,11 +54,20 @@ Run this before handing prose back. It takes under a minute.
 - [ ] No two-beat version without negation: "Many think X. The reality is Y." / "On paper, X. In practice, Y." / "Yes, X. But also Y."
 - [ ] Diagnostic run: delete the first ("wrong") sentence. Nothing lost means it stays deleted.
 
-**Balanced declarative pairs** (the delete test misses these)
-- [ ] No consecutive sentences running the same frame with swapped subjects. "AI is the engine. Data is the moat." / "V1 proves the wedge. V2 is the platform." / "Speed wins the deal. Trust keeps it."
-- [ ] Detection run: any sentence pair of similar length sharing a verb pattern, with different subjects, read aloud as a slogan.
-- [ ] Each one merged into a single sentence with one subject and a working verb, not deleted (House Style D).
+**One line, one proposition** (the delete test misses these)
+- [ ] Subjects counted, finite verbs counted. No line carries two subjects each with its own verb.
+- [ ] No balanced pair, whatever the verb. "AI is the engine. Data is the moat." / "Only the deposit counts as revenue. The rollouts turn LOIs into proof." / "Speed wins the deal. Trust keeps it."
+- [ ] Detection run: any sentence pair of similar length, different subjects, landing as a slogan when read aloud.
+- [ ] Ladder run in order, not jumped. Cut to the point (1), subordinate the lesser half (2), or split into two lines (3).
+- [ ] No double-verb line left behind by a lazy merge: "V1 proves access before V2 turns it into the platform."
 - [ ] No three-part deck version: "V1 does A. V2 does B. V3 does C."
+- [ ] Compound objects left alone. One subject doing three things is one proposition.
+
+**Announce then deliver, and counting**
+- [ ] No sentence that promises what the next one supplies. "The strategy is simple." / "Here is what changed." / "There are three reasons."
+- [ ] Every stated number matches the list after it. "One job" followed by three imperatives is wrong on the number or wrong on the list.
+
+**Metaphor**
 - [ ] No metaphor standing in for a description: "the engine," "the moat," "the wedge," "the flywheel," "the unlock," "the rails," "the playbook" (House Style E).
 
 **Other AI tells**
@@ -77,9 +86,9 @@ Run this before handing prose back. It takes under a minute.
 - [ ] Articles cut wherever grammar survives (A).
 - [ ] No colon or semicolon in body prose. A colon before a list is fine (B).
 - [ ] Each sentence states an action by a named actor, not why it matters (C).
-- [ ] Balanced pairs merged into one sentence with one subject (D).
+- [ ] One proposition per line. Ladder run in order rather than defaulting to a merge (D).
 - [ ] No metaphor doing the work of a description (E).
-- [ ] B vs. D checked the right way round. A second half that elaborates the same subject splits, while one that introduces a balancing subject merges.
+- [ ] B vs. D checked the right way round. A second half that elaborates the same subject splits, while one that introduces a second subject goes to the D ladder.
 
 **One point**
 - [ ] Statable in one sentence, under 15 words.
@@ -95,12 +104,12 @@ Run this before handing prose back. It takes under a minute.
 
 ## The 30-Second Version
 
-Six checks when time is short.
+Seven checks when time is short.
 
 1. **Cut the first paragraph.** Does the piece still work? Usually yes.
 2. **Cut the last sentence.** Does it still close? Usually yes.
 3. **Find every adverb. Delete half.**
 4. **Find every "really / very / just / kind of / sort of." Delete all.**
 5. **Hunt every antithesis.** Delete the X sentence, keep the Y point.
-6. **Hunt every balanced pair.** Two sentences, same shape, swapped subject. Merge into one.
+6. **Hunt every balanced pair.** Two subjects, two verbs. Cut to the half that carries the point.
 7. **Read it aloud.** Fix whatever trips.

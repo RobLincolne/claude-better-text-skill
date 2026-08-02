@@ -98,20 +98,59 @@ Split each one into short declarative sentences. "Scoring is deterministic: foun
 
 Lead each sentence with an actor and an action verb. Describe function. Drop significance framing on sight: "this matters because," "the result is," "which enables," "this means that," "underscores," "highlights the importance of." "The event log makes the round narrative reconstructible" → "Every change lands in an append-only event log. The story of the round replays at any time." A reader who has the function will infer the importance.
 
-### D. One statement, one subject. Merge balanced pairs.
+### D. One line, one proposition.
 
-Two consecutive sentences that share a grammatical frame and swap the subject are one thought split for rhythm. Merge them into a single sentence, keep one subject, and give it a working verb.
+A proposition is one subject doing one thing. Where a line carries two, the reader has to hold both and work out which one matters, and that work belongs to the writer.
 
-- "AI generation is the engine. The decision dataset is the moat." → "AI generation runs on a decision dataset competitors cannot rebuild."
-- "KSA is the proof market. The company scales across the GCC." → "Company proves the model in KSA, then scales across the GCC."
-- "V1 proves the wedge and the access. V2 is the venture-scale platform." → "V1 proves the access before V2 turns it into a platform."
-- "Speed wins the deal. Trust keeps it." → "Speed wins the deal and trust keeps it."
+**Detection.** Count the subjects and count the finite verbs in the line. Two subjects each carrying their own verb means run the ladder below. This applies whether the two sit in separate sentences or inside one sentence joined by "before," "while," "then," or "and."
 
-**Test.** Read the two sentences aloud together. Do they run Subject + is + noun phrase with the subject swapped? Do they land as a slogan? Either answer means merge.
+One subject running several verbs stays as one proposition and needs no fix. "The round ships V2, sells it in KSA, and proves the numbers" is a single actor doing three things in sequence. The rule targets two actors, not two verbs.
 
-The merge usually needs one connective doing real work: a relative clause ("that competitors cannot rebuild"), a time word ("then," "before," "once"), or a participle ("forming," "running on"). Reach for those in place of the full stop.
+**The fix ladder. Work down it in order.**
 
-**This rule and House Style B pull in opposite directions, so check which applies.** B splits a sentence whose second half explains its first half through a colon or semicolon, while D merges two sentences that balance one subject against another. Ask what the second sentence does. Elaborating the same subject means split it (B), while introducing a new subject in parallel means merge it (D).
+1. **Name the proposition that carries the point, and cut the other.** Most pairs die here. Ask what the line is for. The half that answers stays.
+2. **Where both are needed and one outranks the other,** subordinate the lesser to the greater with a relative clause or a possessive. "V2 turns V1's proven access into the platform."
+3. **Where both are needed and rank equally,** give each its own line or bullet. Do not weld them.
+
+**The failure to avoid is jumping to step 2.** Subordination hides a pair inside one sentence without resolving it, and the result is a double-verb line that still makes the reader do the sorting.
+
+- "V1 proves access before V2 turns it into the platform." Two subjects, two verbs, one sentence, unresolved.
+- Step 1 applied: "V2 turns proven access into the platform."
+- Or step 3 applied, where V1 matters independently: two bullets, one for each.
+
+Worked pairs:
+
+- "AI generation is the engine. The decision dataset is the moat." → "AI generation runs on a decision dataset competitors cannot rebuild." (step 2)
+- "Only the deposit counts as revenue. The rollouts turn signed LOIs into proof." → two bullets, because both are load-bearing facts about different things (step 3).
+- "Speed wins the deal. Trust keeps it." → "Speed wins the deal." (step 1, where the line is about winning)
+
+**This rule and House Style B pull in opposite directions, so check which applies.** B splits a sentence whose second half explains its first half through a colon or semicolon, while D resolves two sentences that balance one subject against another. Ask what the second sentence does. Elaborating the same subject means split it (B), while introducing a second subject in parallel means run the D ladder.
+
+#### D1. Balanced pairs, any verb
+
+The pair does not need a copula. Two sentences of similar length, different subjects, matched rhythm, reading as a set:
+
+- "Only the deposit counts as revenue. The rollouts turn signed LOIs into proof."
+- "Hardware gets cheaper every year. Talent does not."
+- "Anyone can build the model. Nobody else has the data."
+
+Read consecutive sentences aloud as a pair. A slogan cadence means run the ladder, whatever the verbs are.
+
+#### D2. Announce then deliver
+
+Sentence 1 promises something. Sentence 2 supplies it. Cut sentence 1 and lead with the content.
+
+| Cut | Use |
+|---|---|
+| This round funds one job. Ship V2, sell it in KSA. | This round ships V2 and sells it in KSA. |
+| The strategy is simple. Sell to the regulator first. | We sell to the regulator first. |
+| There are three reasons. First… | Give the three reasons. |
+| Here is what changed. | State what changed. |
+| The ask is straightforward. | State the ask. |
+
+#### D3. Count the list against the number
+
+A stated number must match the count of what follows. "This round funds one job. Ship V2, sell it in KSA, and prove the numbers" promises one job and lists three. Fix the number or cut the list to match it. Check every "one," "a single," "the only," "two priorities," and "three things" against the items that actually follow.
 
 ### E. No metaphor standing in for a description.
 
@@ -159,23 +198,31 @@ The pattern also runs without explicit negation, in the same two-beat rhythm: "M
 
 ### 1a. Balanced declarative pairs (the delete test misses these)
 
-The same two-beat rhythm with both halves true. Two sentences run the same frame, usually Subject + is + noun phrase, and swap the subject. The rhetorical name is *isocolon*. It concentrates in slide headlines, pull quotes, briefing bullets, and taglines, because those formats invite the aphorism.
+The same two-beat rhythm with both halves true. Two sentences carry different subjects in a matched rhythm and read as a set. The rhetorical name is *isocolon*. It concentrates in slide headlines, pull quotes, briefing bullets, and taglines, because those formats invite the aphorism.
 
 - "AI generation is the engine. The decision dataset is the moat."
-- "KSA is the proof market. The company scales across the GCC."
+- "Only the deposit counts as revenue. The rollouts turn signed LOIs into proof."
 - "V1 proves the wedge and the access. V2 is the venture-scale platform."
 - "Speed wins the deal. Trust keeps it."
 - "Anyone can build the model. Nobody else has the data."
 
-**Deleting the first sentence does not fix these**, because both halves carry information. That is what separates them from the scaffolding above, and it is why they survive an antithesis pass. Merge them under House Style D instead. One subject, one working verb, one sentence.
+**Deleting the first sentence does not fix these**, because both halves carry information. That is what separates them from the scaffolding above, and it is why they survive an antithesis pass. Run the House Style D ladder instead: cut to the proposition that carries the point, subordinate the lesser half, or split into two lines.
 
-**Detection.** Scan consecutive sentence pairs. Flag any pair where the two sentences are within a few words of the same length, share their main verb or verb pattern, and carry different subjects. Read them aloud together. A slogan cadence confirms it.
+**A copula is not required.** "Counts as," "turns into," "wins," and "has" build the same pair. Test on the rhythm and the subject change, not the verb form.
 
-Watch for the three-part version in decks, which sets up the same balance across bullets: "V1 does A. V2 does B. V3 does C." Write the sequence as one sentence with the stages in order.
+**Detection.** Scan consecutive sentence pairs. Flag any pair sitting within a few words of the same length, carrying different subjects, and landing as a slogan when read aloud.
+
+Watch for the three-part version in decks, which sets up the same balance across bullets: "V1 does A. V2 does B. V3 does C."
+
+### 1b. Announce then deliver
+
+Sentence 1 promises something and sentence 2 supplies it. "This round funds one job. Ship V2, sell it in KSA." Cut the announcement and lead with the content. Check the number against the list while you are there, since the announcement usually miscounts what follows. See House Style D2 and D3.
 
 ### 2. Sentence-shape tells
 
-- **Balanced declarative pair.** "X is the engine. Y is the moat." Merge into one sentence (House Style D).
+- **Balanced declarative pair.** "X is the engine. Y is the moat." Run the House Style D ladder.
+- **Double-verb line.** Two subjects with two verbs welded by "before," "while," or "then." A merge artifact that leaves the pair unresolved (House Style D).
+- **Announce then deliver.** "The strategy is simple. Sell to the regulator first." Cut the announcement (House Style D2).
 - **Metaphor as predicate.** "Data is the moat." / "This is the wedge." Say what the thing does (House Style E).
 - **Tricolon.** Three parallel items or clauses where the content supports one or two. Two specific items carry more than three vague ones.
 - **Fragment stacking for emphasis.** "Every time. No exceptions." / "Not two. Not five. One." Write one full sentence.

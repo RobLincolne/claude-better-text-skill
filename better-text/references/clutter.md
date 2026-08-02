@@ -326,26 +326,74 @@ The most pervasive LLM tic. The rhetorical name is *antithesis*, best known as t
 
 ## Balanced Declarative Pairs
 
-The same two-beat rhythm with both halves true. Two sentences run the same frame, usually Subject + is + noun phrase, and swap the subject. The rhetorical name is *isocolon*.
+The same two-beat rhythm with both halves true. Two sentences carry different subjects in a matched rhythm and read as a set. The rhetorical name is *isocolon*.
 
-Deleting the first sentence does not fix these, because both halves carry information. That is why they survive an antithesis pass. Merge them into one sentence with one subject and a working verb.
+Deleting the first sentence does not fix these, because both halves carry information. That is why they survive an antithesis pass.
+
+**A copula is not required.** "Counts as," "turns into," "wins," and "has" build the same pair. Test on the rhythm and the subject change, not the verb form.
+
+**Run the ladder in order.** Cut to the half carrying the point. Failing that, subordinate the lesser half. Failing that, give each half its own line. Reaching for a merge first produces a double-verb line that leaves the pair unresolved.
 
 They concentrate in slide headlines, pull quotes, briefing bullets, and taglines, because those formats invite the aphorism. Check deck and one-pager copy line by line.
 
-| Cut | Use |
-|---|---|
-| AI generation is the engine. The decision dataset is the moat. | AI generation runs on a decision dataset competitors cannot rebuild. |
-| KSA is the proof market. The company scales across the GCC. | Company proves the model in KSA, then scales across the GCC. |
-| V1 proves the wedge and the access. V2 is the venture-scale platform. | V1 proves the access before V2 turns it into a platform. |
-| Speed wins the deal. Trust keeps it. | Speed wins the deal and trust keeps it. |
-| Anyone can build the model. Nobody else has the data. | Competitors can build the model without getting the data. |
-| The tech is commoditised. The distribution is not. | Distribution stays hard while the tech commoditises. |
-| Hardware gets cheaper every year. Talent does not. | Hardware gets cheaper every year while talent costs more. |
-| V1 does A. V2 does B. V3 does C. | One sentence carrying the stages in order. |
+| Cut | Use | Step |
+|---|---|---|
+| AI generation is the engine. The decision dataset is the moat. | AI generation runs on a decision dataset competitors cannot rebuild. | 2 |
+| KSA is the proof market. The company scales across the GCC. | Company proves the model in KSA, then scales across the GCC. | 2 |
+| V1 proves the wedge and the access. V2 is the venture-scale platform. | V2 turns proven access into the platform. | 1 |
+| Speed wins the deal. Trust keeps it. | Speed wins the deal. | 1 |
+| The tech is commoditised. The distribution is not. | Distribution stays hard. | 1 |
+| Hardware gets cheaper every year. Talent does not. | Talent costs more every year. | 1 |
+| Anyone can build the model. Nobody else has the data. | Competitors can build the model without getting the data. | 2 |
+| Only the deposit counts as revenue. The rollouts turn LOIs into proof. | Two bullets, one per fact. | 3 |
+| V1 does A. V2 does B. V3 does C. | Three bullets, one per stage. | 3 |
+
+Every step-1 and step-3 fix leaves one subject per line. The step-2 fixes keep one subject and demote the other to a clause, never to a second verb.
 
 **Detection.** Scan consecutive sentence pairs. Flag any pair where the sentences sit within a few words of the same length, share a verb or verb pattern, and carry different subjects. Read the pair aloud. A slogan cadence confirms it.
 
-**Merge connectives that do real work:** a relative clause ("that competitors cannot rebuild"), a time word ("then," "before," "once," "while"), a participle ("forming," "running on"), or a plain "and" where the two halves are genuinely equal.
+**Subordination connectives, for step 2 only:** a relative clause ("that competitors cannot rebuild"), a possessive ("V1's proven access"), or a participle ("forming," "running on").
+
+**Do not weld with "before," "while," or "then" across two subjects.** That produces the double-verb line below.
+
+## Double-Verb Lines (the merge artifact)
+
+One sentence, two subjects, each with its own verb, joined by a subordinator. The pair is hidden rather than resolved, and the reader still sorts it.
+
+| Cut | Use |
+|---|---|
+| V1 proves access before V2 turns it into the platform. | V2 turns proven access into the platform. |
+| The tool ingests the filings while the model scores them. | The model scores every filing it ingests. |
+| Sales closes the logo and support keeps it. | Sales closes the logo. |
+| Engineering ships the build, then finance books the revenue. | Two lines, one for each team. |
+
+**Detection.** Count the subjects. Two subjects each carrying a finite verb means two propositions, whatever conjunction holds them together. One subject running several verbs is fine.
+
+## Announce Then Deliver
+
+Sentence 1 promises something and sentence 2 supplies it. Cut the announcement.
+
+| Cut | Use |
+|---|---|
+| This round funds one job. Ship V2, sell it in KSA. | This round ships V2 and sells it in KSA. |
+| The strategy is simple. Sell to the regulator first. | We sell to the regulator first. |
+| There are three reasons. First… | Give the three reasons. |
+| Here is what changed. | State what changed. |
+| The ask is straightforward. | State the ask. |
+| Our approach has two parts. | Give the two parts. |
+| Let me explain the model. | Explain the model. |
+
+## Numbers That Do Not Match the List
+
+A stated quantity must match the count of what follows. Check every "one," "a single," "the only," "two priorities," and "three things" against the items after it.
+
+| Problem | Fix |
+|---|---|
+| "This round funds one job." followed by three imperatives. | Correct the number, or cut the list to one item. |
+| "Our two priorities" followed by four bullets. | Pick two, or say four. |
+| "The single biggest risk" followed by a paragraph naming several. | Name the one, or drop "single." |
+
+This is an accuracy check as much as a style check. A reader who counts finds the mismatch.
 
 ## Metaphor Standing In for a Description
 
@@ -381,7 +429,9 @@ Patterns that survive a word-level edit and still read as machine-written.
 
 | Pattern | Example | Fix |
 |---|---|---|
-| Balanced declarative pair | "AI is the engine. Data is the moat." | Merge into one sentence with one subject. |
+| Balanced declarative pair | "AI is the engine. Data is the moat." | Cut to the half carrying the point. |
+| Double-verb line | "V1 proves access before V2 turns it into the platform." | Two subjects, two verbs. Resolve, don't weld. |
+| Announce then deliver | "The strategy is simple. Sell to the regulator." | Cut the announcement. |
 | Tricolon | "Faster, cheaper, and more reliable." | Name the one item that is measurable. |
 | Fragment stacking | "Every time. No exceptions." | Write one full sentence. |
 | Self-answered question | "The result? Devastating." | Fold into a statement. |

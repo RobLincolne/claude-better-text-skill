@@ -36,7 +36,7 @@ Five house-style rules run on top.
 - **A.** Cut articles wherever grammar survives without them.
 - **B.** No colons or semicolons in body prose.
 - **C.** Say what a thing does, not what it means.
-- **D.** One statement, one subject. Merge balanced pairs.
+- **D.** One line, one proposition. Cut to the half that carries the point.
 - **E.** No metaphor standing in for a description.
 
 A pre-delivery checklist and an AI-tells screen close the pass.
@@ -99,7 +99,9 @@ Never write a sentence whose only job is to be wrong so the next sentence can co
 - "V1 proves the wedge. V2 is the venture-scale platform."
 - "Speed wins the deal. Trust keeps it."
 
-The fix is a merge into one sentence with one subject and a working verb, plus a swap of each pitch metaphor for the function it hides. "AI generation runs on a decision dataset competitors cannot rebuild." These concentrate in slide headlines, pull quotes, and briefing bullets.
+The fix runs as a ladder. Cut to the half that carries the point, failing that subordinate the lesser half, failing that give each half its own line. Reaching for a merge first produces a **double-verb line** that hides the pair without resolving it: "V1 proves access before V2 turns it into the platform" still has two subjects doing two things.
+
+The screen also catches **announce-then-deliver** ("The strategy is simple. Sell to the regulator first.") and **numbers that miss their list** ("This round funds one job" followed by three imperatives). These concentrate in slide headlines, pull quotes, and briefing bullets.
 
 The screen also covers patterns that survive a word-level edit:
 
