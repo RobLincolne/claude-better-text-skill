@@ -35,7 +35,7 @@ Five house-style rules run on top.
 
 - **A.** Cut articles wherever grammar survives without them.
 - **B.** No colons or semicolons in body prose.
-- **C.** Say what a thing does, not what it means.
+- **C.** Say what a thing does, not what it means. Verbs must pass the camera test.
 - **D.** One line, one proposition. Cut to the half that carries the point.
 - **E.** No metaphor standing in for a description.
 
