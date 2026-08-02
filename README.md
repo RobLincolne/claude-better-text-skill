@@ -128,7 +128,7 @@ The `better-text.skill` archive is a build output. It isn't committed. CI builds
 
 ## Credits
 
-Distilled from William Zinsser, *On Writing Well: The Classic Guide to Writing Nonfiction* (25th anniversary edition, HarperCollins, 2001). The principles are Zinsser's. The codification into a Claude skill is mine.
+Lessons learned from William Zinsser, *On Writing Well: The Classic Guide to Writing Nonfiction* The principles are Zinsser's, the codification into a Claude skill and integration of concepts into our experience of executive communication and writing that works has been my work on this to date.
 
 ## License
 
