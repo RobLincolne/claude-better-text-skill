@@ -354,20 +354,29 @@ Every step-1 and step-3 fix leaves one subject per line. The step-2 fixes keep o
 
 **Subordination connectives, for step 2 only:** a relative clause ("that competitors cannot rebuild"), a possessive ("V1's proven access"), or a participle ("forming," "running on").
 
-**Do not weld with "before," "while," or "then" across two subjects.** That produces the double-verb line below.
+**Do not weld two subjects with any connective,** including a plain "and." That produces the double-verb line below.
 
 ## Double-Verb Lines (the merge artifact)
 
 One sentence, two subjects, each with its own verb, joined by a subordinator. The pair is hidden rather than resolved, and the reader still sorts it.
 
+Ordered by how often each welder appears in real copy. The comma-and version is the one that survives review, because it looks like one ordinary sentence.
+
 | Cut | Use |
 |---|---|
+| The deposit is booked revenue and the LOIs are signed intent. | Only the deposit counts as revenue. |
+| V2 exists as a working prototype, and this round hardens it for production. | This round hardens the working V2 prototype for production. |
+| A manager gives one brief, and the platform builds the course in minutes. | The platform builds a course from one manager brief in minutes. |
+| Adjacent players show the sector forming, and the market holds room for several winners. | Adjacent players show a forming sector with room for several winners. |
+| The platform scores every decision, so each attempt builds a record. | Every scored decision adds to the worker's competency record. |
+| Sales closes the logo and support keeps it. | Sales closes the logo. |
 | V1 proves access before V2 turns it into the platform. | V2 turns proven access into the platform. |
 | The tool ingests the filings while the model scores them. | The model scores every filing it ingests. |
-| Sales closes the logo and support keeps it. | Sales closes the logo. |
 | Engineering ships the build, then finance books the revenue. | Two lines, one for each team. |
 
-**Detection.** Count the subjects. Two subjects each carrying a finite verb means two propositions, whatever conjunction holds them together. One subject running several verbs is fine.
+**Detection.** Count the subjects. Two subjects each carrying a finite verb means two propositions, whatever conjunction holds them together, including a plain "and." One subject running several verbs is fine.
+
+**Why "and" is the welder that gets missed.** A full stop between the halves is visible on the page, so reviewers catch it. A comma and an "and" reads as one ordinary sentence and passes. In deck and briefing copy the comma-and version outnumbers the full-stop version by roughly three to one.
 
 ## Announce Then Deliver
 
