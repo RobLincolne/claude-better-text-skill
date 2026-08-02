@@ -12,4 +12,4 @@ zin0PegO
 
 # Build output — the .skill is attached to GitHub Releases, not committed.
 # See build.sh and .github/workflows/build.yml
-better-language.skill
+better-text.skill

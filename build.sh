@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #
-# Validate the skill source and build better-language.skill from it.
+# Validate the skill source and build better-text.skill from it.
 #
 # The archive wraps the skill in its own directory:
 #
-#   better-language/SKILL.md
-#   better-language/references/*.md
+#   better-text/SKILL.md
+#   better-text/references/*.md
 #
 # That shape matters. A .skill file should unzip straight into a skills
 # directory (~/.claude/skills/) and land as one self-contained folder. A flat
@@ -22,8 +22,8 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-SRC="better-language"
-OUT="better-language.skill"
+SRC="better-text"
+OUT="better-text.skill"
 DESC_LIMIT=1024
 
 check_only=false

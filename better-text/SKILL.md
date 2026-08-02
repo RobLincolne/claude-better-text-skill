@@ -1,9 +1,9 @@
 ---
-name: better-language
+name: better-text
 description: Apply classic nonfiction writing principles to prose Claude writes or revises, and strip out LLM rhetorical tics like antithesis, "not X but Y," "it's not X, it's Y," and other contrast scaffolding. Use whenever drafting, writing, editing, reviewing, polishing, tightening, or rewriting prose — emails, articles, memos, letters, blog posts, reports, cover letters, LinkedIn posts, or any substantial prose. Trigger on "write an email," "draft a memo," "write a blog post," "write up X," plus review and edit requests like "review this," "edit this," "polish this," "tighten this," "rewrite this," "make this sound human," "make this less AI-sounding," "remove rhetorical tics," "kill the antithesis," "remove the 'not X but Y' pattern." Enforces simplicity, active verbs, a real human voice, unity of pronoun and tense, strong leads and endings, and the ruthless removal of clutter, jargon, and AI rhetorical patterns. Apply BY DEFAULT for any substantial prose output, even when not explicitly asked.
 ---
 
-# Better Language: Clear, Human Prose
+# Better Text: Clear, Human Prose
 
 Strip prose down before building it back up. Make every sentence work. Sound like a person, not an institution or a language model.
 
@@ -44,8 +44,8 @@ The skill is default-on for substantial prose and fires automatically on common 
 - "Deslop this paragraph." (works alongside the deslop skill if installed)
 
 **Explicit invocation:**
-- Slash command: `/better-language`
-- Name it: "Apply the better-language skill to this draft."
+- Slash command: `/better-text`
+- Name it: "Apply the better-text skill to this draft."
 
 When in doubt, just describe what you want done to the prose. The skill's triggers are tuned broadly enough that any honest request to write, edit, polish, or de-AI a piece of writing will pull it in.
 

@@ -27,22 +27,22 @@ jobs:
 
       - name: Verify archive layout
         run: |
-          # The archive must wrap everything in better-language/ so it unzips
+          # The archive must wrap everything in better-text/ so it unzips
           # straight into a skills directory. A flat archive would scatter
           # SKILL.md loose among the user's other installed skills.
-          unzip -Z1 better-language.skill | sed 's/^/  /'
-          if unzip -Z1 better-language.skill | grep -qv '^better-language/'; then
-            echo "FAIL: archive contains entries outside better-language/" >&2
+          unzip -Z1 better-text.skill | sed 's/^/  /'
+          if unzip -Z1 better-text.skill | grep -qv '^better-text/'; then
+            echo "FAIL: archive contains entries outside better-text/" >&2
             exit 1
           fi
-          test -f better-language/SKILL.md
+          test -f better-text/SKILL.md
           echo "ok archive layout"
 
       - name: Upload archive for inspection
         uses: actions/upload-artifact@v4
         with:
-          name: better-language-skill
-          path: better-language.skill
+          name: better-text-skill
+          path: better-text.skill
 
   # Runs only on a version tag. Builds the archive and attaches it to a
   # GitHub Release, which is where the README download link points.
@@ -61,5 +61,5 @@ jobs:
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          files: better-language.skill
+          files: better-text.skill
           generate_release_notes: true

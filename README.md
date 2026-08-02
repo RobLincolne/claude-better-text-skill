@@ -1,4 +1,4 @@
-# claude-better-language-skill
+# claude-better-text-skill
 
 A Claude skill inspired by my experience of William Zinsser's *On Writing Well*, applying its principles to any nonfiction prose Claude writes or revises. It also tackles head-on classic Claude-isms such as antithesis statements, and other tics as we spot them. I want to push that part much further.
 
@@ -6,15 +6,15 @@ It auto-applies whenever Claude drafts, edits, or reviews prose. Emails, article
 
 ## Install
 
-Download **[better-language.skill](https://github.com/RobLincolne/claude-better-language-skill/releases/latest/download/better-language.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
+Download **[better-text.skill](https://github.com/RobLincolne/claude-better-text-skill/releases/latest/download/better-text.skill)**, drag it into Claude or Cowork, and click "Save skill". That's it.
 
 To install by hand, unzip it into your skills directory:
 
 ```bash
-unzip better-language.skill -d ~/.claude/skills/
+unzip better-text.skill -d ~/.claude/skills/
 ```
 
-Either way you end up with `~/.claude/skills/better-language/`.
+Either way you end up with `~/.claude/skills/better-text/`.
 
 ## What the skill does
 
@@ -35,11 +35,11 @@ A pre-delivery checklist and a deslop-style AI-tells screen run on top.
 
 ## Developing
 
-Edit files under `better-language/`. That folder is the only source. The `.skill` archive gets built, never committed.
+Edit files under `better-text/`. That folder is the only source. The `.skill` archive gets built, never committed.
 
 ```bash
 ./build.sh --check   # validate (this is what CI runs on every PR)
-./build.sh           # validate, then build better-language.skill
+./build.sh           # validate, then build better-text.skill
 ```
 
 Two failures break the skill silently. A frontmatter `name:` drifts from the folder name, or a `description:` runs past its 1024-character limit. The checks catch both. See [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -65,8 +65,8 @@ The frontmatter fires on any of these.
 - "remove the rhetorical tics", "kill the antithesis", "cut the 'not X but Y' constructions", "remove the contrast scaffolding", "strip out the AI rhetorical patterns"
 
 **Explicit invocation**
-- Slash command: `/better-language`
-- Or by name: "Apply the better-language skill to this draft."
+- Slash command: `/better-text`
+- Or by name: "Apply the better-text skill to this draft."
 
 The skill is also marked default-on for substantial prose, so it kicks in when you don't name it.
 
@@ -85,20 +85,20 @@ Never write a sentence whose only job is to be wrong so the next sentence can co
 
 ## Files
 
-`better-language/` holds the source of truth. Edit here, then run `./build.sh`.
+`better-text/` holds the source of truth. Edit here, then run `./build.sh`.
 
-- [`better-language/SKILL.md`](better-language/SKILL.md) carries the Ten Rules and the Pre-Delivery Checklist.
-- [`better-language/references/clutter.md`](better-language/references/clutter.md) lists clutter, journalese, and jargon with replacements.
-- [`better-language/references/principles.md`](better-language/references/principles.md) expands each of the Ten Rules and explains the reasoning behind it.
-- [`better-language/references/examples.md`](better-language/references/examples.md) works seven before/after rewrites. Status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note.
-- [`better-language/references/checklist.md`](better-language/references/checklist.md) copies out the pre-delivery checklist to stand alone.
+- [`better-text/SKILL.md`](better-text/SKILL.md) carries the Ten Rules and the Pre-Delivery Checklist.
+- [`better-text/references/clutter.md`](better-text/references/clutter.md) lists clutter, journalese, and jargon with replacements.
+- [`better-text/references/principles.md`](better-text/references/principles.md) expands each of the Ten Rules and explains the reasoning behind it.
+- [`better-text/references/examples.md`](better-text/references/examples.md) works seven before/after rewrites. Status email, project memo lead, blog opening, cover letter paragraph, apology email, internal announcement, review note.
+- [`better-text/references/checklist.md`](better-text/references/checklist.md) copies out the pre-delivery checklist to stand alone.
 
 Everything else is tooling.
 
 - [`build.sh`](build.sh) validates the source and builds the `.skill` archive.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) covers how to propose a change, and the two constraints to respect.
 
-The `better-language.skill` archive is a build output. It isn't committed. CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-better-language-skill/releases).
+The `better-text.skill` archive is a build output. It isn't committed. CI builds it and attaches it to each [release](https://github.com/RobLincolne/claude-better-text-skill/releases).
 
 ## Credits
 
