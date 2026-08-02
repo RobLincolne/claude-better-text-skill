@@ -194,17 +194,46 @@ Deck formats invite the aphorism, so the balanced pair concentrates here. Every 
 
 > - AI generation runs on a decision dataset competitors cannot rebuild.
 > - Company proves the model in KSA, then scales across the GCC.
-> - V1 proves the access before V2 turns it into a platform.
+> - V2 turns proven access into the platform.
 
 **Changes:**
 
-- Merged each pair into one sentence with one subject and one working verb (House Style D). Deleting a half would have lost information, so the fix is a merge rather than a cut.
+- Ran the ladder on each pair (House Style D). Line 1 subordinated the lesser half. Line 2 kept one subject through both verbs. Line 3 cut the V1 half entirely, because the line is about V2.
 - Replaced the metaphor predicates with the function they were hiding (House Style E). "The moat" became "competitors cannot rebuild." "The engine" disappeared into the verb "runs on."
-- Kept "wedge" out of the third line, where "the access" already names the thing being proved.
 - Cut "venture-scale," a scale adjective carrying no figure.
-- Each line now survives the read-aloud test without landing as a slogan.
 
-**Where a client term has to stay:** use it once and explain it in the same sentence. "AI generation runs on a decision dataset competitors cannot rebuild, which is the moat." Use the term once and gloss it in plain words the same time.
+**On line 3, an earlier draft of this skill produced "V1 proves the access before V2 turns it into a platform."** That is a merge artifact. Two subjects, two verbs, welded with "before," and the reader still has to work out which half is the point. Where V1 has to appear, subordinate it ("V2 turns V1's proven access into the platform") or give it a bullet of its own. Never weld.
+
+**One subject running several verbs is fine.** "Company proves the model in KSA, then scales across the GCC" is one actor doing two things in sequence, which reads as one proposition. The rule targets two actors, not two verbs.
+
+**Where a client term has to stay,** use it once and gloss it in plain words the same time. "AI generation runs on a decision dataset competitors cannot rebuild, which is the moat."
+
+---
+
+## 10. The Patterns That Survive a Merge Pass
+
+Three lines from a briefing deck that passed an antithesis check and a first balanced-pair check.
+
+**Before:**
+
+> - "Only the deposit counts as revenue. The rollouts turn signed LOIs into proof."
+> - "This round funds one job. Ship V2, sell it in KSA, and prove the numbers."
+> - "V1 proves access before V2 turns it into the platform."
+
+**After:**
+
+> - Only the deposit counts as revenue.
+> - Rollouts turn signed LOIs into proof.
+> - This round ships V2 and sells it in KSA.
+> - V2 turns proven access into the platform.
+
+**Changes:**
+
+- **Line 1** is a balanced pair with no copula, which is why a test keyed on "X is A. Y is B." missed it. "Counts as" and "turn into" build the same rhythm. Both halves are load-bearing facts about different things, so neither one cuts and neither one subordinates. Step 3 of the ladder applies and each gets its own bullet.
+- **Line 2** announces in sentence one and delivers in sentence two. Cut the announcement and lead with the content. It also promised "one job" and listed three, so the number was wrong or the list was. The rewrite names two real deliverables and drops the count.
+- **Line 3** is the merge artifact. Cut to the proposition the line exists to make.
+
+**The general test:** count the subjects in the line. Two subjects each carrying a verb means the line has two propositions in it, whatever punctuation or conjunction is holding them together.
 
 ---
 
@@ -221,6 +250,6 @@ The same edits keep working across formats.
 7. **Take an apology whole.** Skip the explanation, give a new deadline, and say what happens if it slips.
 8. **Give an announcement something to act on.** A date, a channel, a name.
 9. **Give a review specific edits.** "Move sentence X to position Y" beats "tighten the messaging."
-10. **Merge every balanced pair.** Two sentences, same shape, swapped subject, one merged sentence.
+10. **Resolve every balanced pair.** Cut to the half that carries the point, or give each half its own line.
 11. **Trade every metaphor for the function it hides.** "The moat" → what competitors cannot copy.
 12. **Read it aloud before sending.**
