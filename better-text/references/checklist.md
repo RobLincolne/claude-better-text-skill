@@ -60,6 +60,8 @@ Run this before handing prose back. It takes under a minute.
 - [ ] Detection run: any sentence pair of similar length, different subjects, landing as a slogan when read aloud.
 - [ ] Ladder run in order, not jumped. Cut to the point (1), subordinate the lesser half (2), or split into two lines (3).
 - [ ] No double-verb line left behind by a lazy merge: "V1 proves access before V2 turns it into the platform."
+- [ ] Every comma-and checked. "V2 exists as a prototype, and this round hardens it" is the same defect as a full stop, and it is the version that survives review.
+- [ ] Welders swept: and, so, before, while, then, as. The test is the subject count, never the punctuation.
 - [ ] No three-part deck version: "V1 does A. V2 does B. V3 does C."
 - [ ] Compound objects left alone. One subject doing three things is one proposition.
 

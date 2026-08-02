@@ -102,7 +102,22 @@ Lead each sentence with an actor and an action verb. Describe function. Drop sig
 
 A proposition is one subject doing one thing. Where a line carries two, the reader has to hold both and work out which one matters, and that work belongs to the writer.
 
-**Detection.** Count the subjects and count the finite verbs in the line. Two subjects each carrying their own verb means run the ladder below. This applies whether the two sit in separate sentences or inside one sentence joined by "before," "while," "then," or "and."
+**Detection.** Count the subjects and count the finite verbs in the line. Two subjects each carrying their own verb means run the ladder below, whatever joins them.
+
+**The most common welder is a plain "and."** A full stop between the halves is visible, so reviewers catch it. The comma-and version reads as one ordinary sentence and passes review, and in deck copy it outnumbers the full-stop version by roughly three to one. Treat every row below as the same defect.
+
+| Welder | Example |
+|---|---|
+| and | "V2 exists as a working prototype, and this round hardens it." |
+| and (no comma) | "The deposit is booked revenue and the LOIs are signed intent." |
+| so | "The platform scores every decision, so each attempt builds a record." |
+| before | "V1 proves access before V2 turns it into the platform." |
+| while | "Distribution stays hard while the tech commoditises." |
+| then | "Engineering ships the build, then finance books the revenue." |
+| as | "Returns build as the company moves to GCC expansion." |
+| full stop | "Speed wins the deal. Trust keeps it." |
+
+Test the subject count, never the punctuation.
 
 One subject running several verbs stays as one proposition and needs no fix. "The round ships V2, sells it in KSA, and proves the numbers" is a single actor doing three things in sequence. The rule targets two actors, not two verbs.
 
