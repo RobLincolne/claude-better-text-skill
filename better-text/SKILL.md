@@ -84,7 +84,7 @@ Pick the single thing the reader should retain, and write it down before draftin
 
 ## House Style
 
-These five rules extend the ten above and win on conflict. Apply them at full strength to specs, capability statements, product descriptions, briefing notes, slide copy, and promotional copy. Apply them with judgment in warmer formats such as personal email and narrative, where full sentences read better.
+These ten rules extend the ten above and win on conflict. Apply them at full strength to specs, capability statements, product descriptions, briefing notes, slide copy, and promotional copy. Apply them with judgment in warmer formats such as personal email and narrative, where full sentences read better.
 
 ### A. Cut articles wherever grammar survives without them.
 
@@ -193,6 +193,44 @@ Pitch vocabulary hides the function behind a noun. "The engine," "the moat," "th
 - "The flywheel kicks in." → "Each new firm makes the next match cheaper to compute."
 
 Where a metaphor is the client's own vocabulary and has to stay, use it once and explain it in plain words the same time. Never build a sentence pair out of two metaphors set against each other, which produces the "engine and moat" cadence above.
+
+### F. One style per headline.
+
+Set a headline in one typeface, one colour, one weight, one posture. No italic span inside a roman headline, no accent-colour phrase inside an ink headline, no bolded half. A headline that needs a highlighted phrase to land has not decided its point. Rewrite the words until they carry it unstyled.
+
+- "Advisory revenue carries the platform to *Fund I*." (italic rust span) → "Advisory revenue carries the platform to Fund I." (one colour, roman)
+- "One of the most underrated growth markets — *wide open for operators*." → "Saudi Arabia is one of the most underrated growth markets in the world."
+
+The rule targets headlines and display lines. A fully italic caption, a mono kicker label, or an accent-coloured section number stays, because the whole element carries one style.
+
+### G. Headlines state the finding in one plain sentence.
+
+No two-clause headlines. "The moat is regulatory, and it hides in a corner" welds a claim to a complaint and makes the reader hold both. Write the claim: "Regulatory position is the strongest asset." No clever compression either — "Numbers that fail their own footnotes" performs; "Double checking market numbers" states what the section does. A fragment pair ("Twelve slides, no revenue figure") is the same defect in disguise. One subject, one verb, the finding.
+
+- "Strong story, missing round" → "Checklist scores"
+- "The moat is regulatory, and it hides in a corner" → "Regulatory position is the strongest asset"
+- "Numbers that fail their own footnotes" → "Double checking market numbers"
+- "Six weeks out: what exists vs what's missing" → "Six weeks to first close"
+
+### H. Label advice "Recommendation."
+
+Any line whose job is to tell the reader what to do opens with the word "Recommendation." A table column of fixes is headed "Recommendation". Do not fold advice into commentary or imply it through framing — name it, so the reader can find every action in the document by scanning for one word.
+
+- "The fix is one slide. Current MRR and trend, ARPU…" → "Recommendation. Add one financial slide. MRR and 6-month trend, ARPU…"
+- "Promote this to its own slide." → "Recommendation. Give this its own slide."
+
+### I. Plain labels, short titles, no writerly vocabulary.
+
+Section labels use the words a colleague would say out loud. "What we like", not "What holds up". "Focus opportunity", not "What drags". Titles drop every word grammar survives without: "Seven gaps in deck", not "Seven remaining gaps in the deck". If a label needs interpreting, it is the wrong label.
+
+### J. Reviewer stance: describe the check, not the verdict.
+
+In a review or assessment of someone else's work, write as the colleague who wants the thing to succeed, not the prosecutor building a case. Two moves:
+
+1. **Name the activity, not the conviction.** "Double checking market numbers" describes what the reviewer did. "Market numbers don't add up" convicts. Both surface the same finding; the first leaves the author standing.
+2. **Assume good faith about absences.** Missing material is noted with the likely benign explanation attached: "We assume this will be supplied post NDA. Here are the metrics we'd look for." An absence stated bare reads as an accusation.
+
+Softening the stance never softens the finding. Scores, numbers, and severity ratings stay exact. Only the framing changes: from "here is what is wrong with your work" to "here is what we checked and what we'd want to see."
 
 ## Voice and Register
 
